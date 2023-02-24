@@ -1,0 +1,13 @@
+x = -5:0.2:20;
+[x1, x2] = meshgrid(x);
+ineq1 = x1 >= 0;
+ineq2 = x2 >= 0;
+ineq3 = x1 + 2*x2 <= 20;
+ineq4 = 2*x1 + x2 <= 20;
+f1 = double(ineq1);
+f2 = double(ineq2);
+f3 = double(ineq3);
+f4 = double(ineq4);
+f = f1.*f2.*f3.*f4;
+surf(x1, x2, f);
+view(0,90);

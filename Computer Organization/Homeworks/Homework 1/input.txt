@@ -1,0 +1,3 @@
+test1.mat test2.mat
+Please enter the matrix A data file name: File A
+failed to open file1.

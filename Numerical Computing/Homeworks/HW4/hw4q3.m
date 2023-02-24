@@ -1,0 +1,32 @@
+n=10;
+A = p3matrix(n);
+x_e = ones(n,1);
+b = A*x_e;
+x_a = A\b;
+RFE = norm(x_e-x_a,Inf)/norm(x_e,Inf);
+RBE = norm(A*x_a-b,Inf)/norm(b,Inf);
+EMF = RFE/RBE;
+kappa = norm(A,Inf)*norm(inv(A),Inf);
+fprintf('n=%5d : RFE=%8.2e RBE=%8.2e EMF=%8.2e kappa(A)=%8.2e\n',n,RFE,RBE,EMF,kappa);
+
+n=100;
+A = p3matrix(n);
+x_e = ones(n,1);
+b = A*x_e;
+x_a = A\b;
+RFE = norm(x_e-x_a,Inf)/norm(x_e,Inf);
+RBE = norm(A*x_a-b,Inf)/norm(b,Inf);
+EMF = RFE/RBE;
+kappa = norm(A,Inf)*norm(inv(A),Inf);
+fprintf('n=%5d : RFE=%8.2e RBE=%8.2e EMF=%8.2e kappa(A)=%8.2e\n',n,RFE,RBE,EMF,kappa);
+
+n=1000;
+A = p3matrix(n);
+x_e = ones(n,1);
+b = A*x_e;
+x_a = A\b;
+RFE = norm(x_e-x_a,Inf)/norm(x_e,Inf);
+RBE = norm(A*x_a-b,Inf)/norm(b,Inf);
+EMF = RFE/RBE;
+kappa = norm(A,Inf)*norm(inv(A),Inf);
+fprintf('n=%5d : RFE=%8.2e RBE=%8.2e EMF=%8.2e kappa(A)=%8.2e\n',n,RFE,RBE,EMF,kappa);

@@ -1,0 +1,137 @@
+1. Your friend Sally wrote a cool C program that encodes a secret string as a series of integers
+and then writes out those integers to a binary file. For example, she would encode string
+”hey!” within a single int as:
+
+int a = (unsigned)'h' * 256*256*256 + (unsigned)'e' * 256*256 + \
+(unsigned)'y' * 256 + (unsigned)'!';
+After outputting a secret string to a file, Sally sends you that file and you read it in as follows:
+FILE* fp = fopen("secret", "r");
+fseek(fp, 0L, SEEK_END);
+int size = ftell(fp);
+fseek(fp, 0L, SEEK_SET);
+int size = filesize(fp);
+char buffer[256];
+fread(buffer, sizeof(char), size / sizeof(char), fp);
+fclose(fp);
+printf("%s", buffer);
+
+
+However, the output you observe is somewhat nonsensical:
+pmocgro lur 1!ze
+
+Can you determine what the original secret string is and speculate on what might the issue
+be with Sally’s program?
+
+ANSWER:
+Comp Org Rulez!
+Endianness of the system was out of backwards
+
+Your company has tasked you to build an endianness converter function to help transfer a
+number of binary files from the company’s old Motorola 68K (big-endian) mainframe to
+your company’s brand new Intel 80836 server (little endian). The function will take as
+input a filename and the size in number of bytes of the datatype to be converted. You
+can assume each file has is just an array of a single data type where the input integer
+size_of_type == sizeof(data type). You need to determine the length of the array on
+your own within the function.
+For a given input, you should determine the size of the file and number of values contained
+within it, allocate space to hold the contents of the file, read in the file, do the conversion, and
+then write out a new file named as “[filename].converted”, where [filename] was the original
+input file name. You don’t need to do any error handling. You can do the conversion “in
+place” or just allocate two seperate input/output arrays.
+
+ANSWER:
+void endianness_converter(char* filename, int size_of_type)
+{
+  File *fp = fopen(filename, 'r');
+  
+  // determine size of the file
+  fseek(fp, 0L, SEEK_END);
+  int size = ftell(fp);
+  fseek(fp, 0L, SEEK_SET);
+  // allocated space to hold contents
+  char* data = malloc(size);
+  // read in the file
+  fread(data, 1, file_size, file) // Char is 1 byte
+  fclose(fp);
+  // do byte-wise conversion from big-endian to little-endian
+  for(int i  = 0; i < size/size_of_type; i++){
+    char* start = data[i * size_of_type];
+    char* end =   data[(i+1)*size_of_type - 1];
+
+    while(start < end){ // Swap Values
+      char tmp = *start;
+      *start = *end;
+      *end = tmp;
+      ++start;
+      --end;
+    }
+  }
+  // write a new file as "[filename].converted"
+  char* outfile = calloc(strlen(filename) + 11, sizeof(char));
+  strcat(outfile,filename);
+  strcat(outfile, ".converted");
+
+  File *fp = fopen(outfile, "w");
+  fwrite(data, 1, file_size, outfile);
+  fclose(outfile);
+  // clean up any memory and file pointers
+  free(data);
+  free(outfile);
+}
+
+
+You are an instructor for a Computer Organization class at RPI. You wish to use the Unix-like
+command line on the Submitty server autograder to evaluate whether students are properly
+free’ing allocated memory in their first homework. To do this, you have three useful commands
+at your disposal.
+• Command:
+  valgrind ./a.out < input1.txt
+  This will result in the output of the compiled homework executable, given the input file
+  input1.txt read in via stdin, to be written to stdout. The valgrind output will be written
+  to stderr. Example valgrind stderr output is given below:
+  ==778485== Memcheck, a memory error detector
+  ==778485== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+  ==778485== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+  ==778485== Command: ./a.out
+  ==778485==
+  ==778485==
+  ==778485== HEAP SUMMARY:
+  ==778485== in use at exit: 0 bytes in 0 blocks
+  ==778485== total heap usage: 28 allocs, 28 frees, 17,824 bytes allocated
+  ==778485==
+  ==778485== All heap blocks were freed -- no leaks are possible
+  ==778485==
+  ==778485== For lists of detected and suppressed errors, rerun with: -s
+  ==778485== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+• Command:
+  grep 'exit'
+This will extract any line from the stdin input to the grep program that contains the
+exact string ‘exit’. It will output that full line to stdout. For example, valgrind output
+from HW1 given above to grep via stdin would output to stdout:
+  ==778485== in use at exit: 0 bytes in 0 blocks
+2
+• Command:
+  sed -e 's/==.*== //g'
+This finds any part of an input given to sed via stdin that matches the string '==.*== '
+and deletes it. In this case, the wildcard .* matches any characters in between two sets
+of two equal signs. For instance, given the above output from grep, the above command
+would output to stdout:
+in use at exit: 0 bytes in 0 blocks
+Can you figure out a way, using Linux pipes and output redirects, such that the above
+string “in use at exit: 0 bytes in 0 blocks” gets written to stdout from the valgrind output of a student’s compiled code? (Assuming that the student properly free’d
+their memory.)
+Hint: 2>&1 might be useful
+Don’t worry: This is more involved than anything I’ll ask on the exam.
+Exam hint: For the exam, also know how to navigate directories, and what something like
+the command "cat *.c" would output
+
+ANSWER: valgrind ./a.out < input1.txt 2>&1 | grep 'exit' | sed -e 's/==.*==   //g'
+
+4. Explain the difference between “relative” and absolute “pathnames”. Give examples of each.
+
+ANSWER:
+Relative pathnames are in relation to the current filepath. That is, relative pathnames can only be in the current directory or subdirectorys
+
+Suppose you are in the directory desktop with a subdirectory homework that contains file a.out:
+  Relative:
+    /homework/./a.out 

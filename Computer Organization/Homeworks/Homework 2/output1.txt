@@ -1,0 +1,6 @@
+Please enter a valid C assignment statement:
+The MIPS pseudocode is:
+add $t0,$s1,$s2
+add $t1,$t0,$s3
+add $t2,$t1,$s4
+add $s0,$t2,42
