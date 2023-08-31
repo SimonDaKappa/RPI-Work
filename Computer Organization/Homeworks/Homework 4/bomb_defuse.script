@@ -1,0 +1,52 @@
+file ./bomb
+break level_one
+break level_two
+break level_three
+break level_four
+run 
+stepi
+stepi
+stepi
+stepi
+stepi
+set *(int*)($rbp - 4) = 1
+continue
+stepi
+stepi
+stepi
+stepi
+stepi
+stepi
+set *(int*)($rbp - 4) = 0
+continue
+stepi
+stepi
+stepi
+stepi
+stepi
+stepi
+stepi
+set $eax = 0x3
+stepi
+stepi
+stepi
+set *(int*)($rbp - 0x4) = 0x3
+stepi
+continue
+stepi
+stepi
+stepi
+stepi
+stepi
+stepi
+stepi
+set $eax = 0x4
+stepi
+stepi
+stepi
+set $eax = 0x4
+stepi
+stepi
+stepi
+set *(int*)($rbp - 0x4) = 0x4
+continue
