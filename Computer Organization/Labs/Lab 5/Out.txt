@@ -1,0 +1,205 @@
+===== Unit test for not_gate =====
+not_gate( A ) | RESULT
+--------------|-------
+not_gate( 0 ) | 1
+not_gate( 1 ) | 0
+
+===== Unit test for or_gate =====
+or_gate( A, B ) | RESULT
+----------------|-------
+or_gate( 0, 0 ) | 0
+or_gate( 0, 1 ) | 1
+or_gate( 1, 0 ) | 1
+or_gate( 1, 1 ) | 1
+
+===== Unit test for and_gate =====
+and_gate( A, B ) | RESULT
+-----------------|-------
+and_gate( 0, 0 ) | 0
+and_gate( 0, 1 ) | 0
+and_gate( 1, 0 ) | 0
+and_gate( 1, 1 ) | 1
+
+===== Unit test for xor_gate =====
+xor_gate( A, B ) | RESULT
+-----------------|-------
+xor_gate( 0, 0 ) | 0
+xor_gate( 0, 1 ) | 1
+xor_gate( 1, 0 ) | 1
+xor_gate( 1, 1 ) | 0
+
+===== Unit test for nor_gate =====
+nor_gate( A, B ) | RESULT
+-----------------|-------
+nor_gate( 0, 0 ) | 1
+nor_gate( 0, 1 ) | 0
+nor_gate( 1, 0 ) | 0
+nor_gate( 1, 1 ) | 0
+
+===== Unit test for 2-input decoder =====
+decoder( I0, I1 ) | ( O0, O1, O2, O3 )
+------------------|-------------------
+decoder(  0,  0 ) | (  1,  0,  0,  0 )
+decoder(  0,  1 ) | (  0,  1,  0,  0 )
+decoder(  1,  0 ) | (  0,  0,  1,  0 )
+decoder(  1,  1 ) | (  0,  0,  0,  1 )
+
+===== Unit test for 2-input multiplexor =====
+multiplexor( S ) | ( I0, I1 ) | RESULT
+-----------------|------------|-------
+multiplexer( 0 ) | (  0,  0 ) |  0
+multiplexer( 0 ) | (  0,  1 ) |  0
+multiplexer( 0 ) | (  1,  0 ) |  0
+multiplexer( 0 ) | (  1,  1 ) |  0
+multiplexer( 1 ) | (  0,  0 ) |  0
+multiplexer( 1 ) | (  0,  1 ) |  1
+multiplexer( 1 ) | (  1,  0 ) |  1
+multiplexer( 1 ) | (  1,  1 ) |  1
+
+===== Unit test for 4-input multiplexor =====
+multiplexor( S0, S1 ) | ( I0, I1, I2, I3 ) | RESULT
+----------------------|--------------------|-------
+multiplexer(  0,  0 ) | (  0,  0,  0,  0 ) |  0
+multiplexer(  0,  0 ) | (  0,  0,  0,  1 ) |  0
+multiplexer(  0,  0 ) | (  0,  0,  1,  0 ) |  0
+multiplexer(  0,  0 ) | (  0,  0,  1,  1 ) |  0
+multiplexer(  0,  0 ) | (  0,  1,  0,  0 ) |  0
+multiplexer(  0,  0 ) | (  0,  1,  0,  1 ) |  0
+multiplexer(  0,  0 ) | (  0,  1,  1,  0 ) |  0
+multiplexer(  0,  0 ) | (  0,  1,  1,  1 ) |  0
+multiplexer(  0,  0 ) | (  1,  0,  0,  0 ) |  1
+multiplexer(  0,  0 ) | (  1,  0,  0,  1 ) |  1
+multiplexer(  0,  0 ) | (  1,  0,  1,  0 ) |  1
+multiplexer(  0,  0 ) | (  1,  0,  1,  1 ) |  1
+multiplexer(  0,  0 ) | (  1,  1,  0,  0 ) |  1
+multiplexer(  0,  0 ) | (  1,  1,  0,  1 ) |  1
+multiplexer(  0,  0 ) | (  1,  1,  1,  0 ) |  1
+multiplexer(  0,  0 ) | (  1,  1,  1,  1 ) |  1
+multiplexer(  0,  1 ) | (  0,  0,  0,  0 ) |  0
+multiplexer(  0,  1 ) | (  0,  0,  0,  1 ) |  0
+multiplexer(  0,  1 ) | (  0,  0,  1,  0 ) |  0
+multiplexer(  0,  1 ) | (  0,  0,  1,  1 ) |  0
+multiplexer(  0,  1 ) | (  0,  1,  0,  0 ) |  1
+multiplexer(  0,  1 ) | (  0,  1,  0,  1 ) |  1
+multiplexer(  0,  1 ) | (  0,  1,  1,  0 ) |  1
+multiplexer(  0,  1 ) | (  0,  1,  1,  1 ) |  1
+multiplexer(  0,  1 ) | (  1,  0,  0,  0 ) |  0
+multiplexer(  0,  1 ) | (  1,  0,  0,  1 ) |  0
+multiplexer(  0,  1 ) | (  1,  0,  1,  0 ) |  0
+multiplexer(  0,  1 ) | (  1,  0,  1,  1 ) |  0
+multiplexer(  0,  1 ) | (  1,  1,  0,  0 ) |  1
+multiplexer(  0,  1 ) | (  1,  1,  0,  1 ) |  1
+multiplexer(  0,  1 ) | (  1,  1,  1,  0 ) |  1
+multiplexer(  0,  1 ) | (  1,  1,  1,  1 ) |  1
+multiplexer(  1,  0 ) | (  0,  0,  0,  0 ) |  0
+multiplexer(  1,  0 ) | (  0,  0,  0,  1 ) |  0
+multiplexer(  1,  0 ) | (  0,  0,  1,  0 ) |  1
+multiplexer(  1,  0 ) | (  0,  0,  1,  1 ) |  1
+multiplexer(  1,  0 ) | (  0,  1,  0,  0 ) |  0
+multiplexer(  1,  0 ) | (  0,  1,  0,  1 ) |  0
+multiplexer(  1,  0 ) | (  0,  1,  1,  0 ) |  1
+multiplexer(  1,  0 ) | (  0,  1,  1,  1 ) |  1
+multiplexer(  1,  0 ) | (  1,  0,  0,  0 ) |  0
+multiplexer(  1,  0 ) | (  1,  0,  0,  1 ) |  0
+multiplexer(  1,  0 ) | (  1,  0,  1,  0 ) |  1
+multiplexer(  1,  0 ) | (  1,  0,  1,  1 ) |  1
+multiplexer(  1,  0 ) | (  1,  1,  0,  0 ) |  0
+multiplexer(  1,  0 ) | (  1,  1,  0,  1 ) |  0
+multiplexer(  1,  0 ) | (  1,  1,  1,  0 ) |  1
+multiplexer(  1,  0 ) | (  1,  1,  1,  1 ) |  1
+multiplexer(  1,  1 ) | (  0,  0,  0,  0 ) |  0
+multiplexer(  1,  1 ) | (  0,  0,  0,  1 ) |  1
+multiplexer(  1,  1 ) | (  0,  0,  1,  0 ) |  0
+multiplexer(  1,  1 ) | (  0,  0,  1,  1 ) |  1
+multiplexer(  1,  1 ) | (  0,  1,  0,  0 ) |  0
+multiplexer(  1,  1 ) | (  0,  1,  0,  1 ) |  1
+multiplexer(  1,  1 ) | (  0,  1,  1,  0 ) |  0
+multiplexer(  1,  1 ) | (  0,  1,  1,  1 ) |  1
+multiplexer(  1,  1 ) | (  1,  0,  0,  0 ) |  0
+multiplexer(  1,  1 ) | (  1,  0,  0,  1 ) |  1
+multiplexer(  1,  1 ) | (  1,  0,  1,  0 ) |  0
+multiplexer(  1,  1 ) | (  1,  0,  1,  1 ) |  1
+multiplexer(  1,  1 ) | (  1,  1,  0,  0 ) |  0
+multiplexer(  1,  1 ) | (  1,  1,  0,  1 ) |  1
+multiplexer(  1,  1 ) | (  1,  1,  1,  0 ) |  0
+multiplexer(  1,  1 ) | (  1,  1,  1,  1 ) |  1
+
+===== Unit test for 1-bit adder =====
+adder( A, B, CI ) | ( CO, Sum )
+------------------|------------
+adder( 0, 0,  0 ) | (  0,   0 )
+adder( 0, 0,  1 ) | (  0,   1 )
+adder( 0, 1,  0 ) | (  0,   1 )
+adder( 0, 1,  1 ) | (  1,   0 )
+adder( 1, 0,  0 ) | (  0,   1 )
+adder( 1, 0,  1 ) | (  1,   0 )
+adder( 1, 1,  0 ) | (  1,   0 )
+adder( 1, 1,  1 ) | (  1,   1 )
+
+===== Unit test for 1-Bit ALU =====
+ALU( A, B ) | ( Bi, CI, Op0, Op1 ) | ( Re, CO )
+------------|----------------------|-----------
+ALU( 0, 0 ) | (  0,  0,   0,   0 ) | (  0,  0 )
+ALU( 0, 0 ) | (  0,  0,   0,   1 ) | (  0,  0 )
+ALU( 0, 0 ) | (  0,  0,   1,   0 ) | (  0,  0 )
+ALU( 0, 0 ) | (  0,  0,   1,   1 ) | (  0,  0 )
+ALU( 0, 0 ) | (  0,  1,   0,   0 ) | (  0,  0 )
+ALU( 0, 0 ) | (  0,  1,   0,   1 ) | (  0,  0 )
+ALU( 0, 0 ) | (  0,  1,   1,   0 ) | (  0,  0 )
+ALU( 0, 0 ) | (  0,  1,   1,   1 ) | (  0,  0 )
+ALU( 0, 0 ) | (  1,  0,   0,   0 ) | (  0,  0 )
+ALU( 0, 0 ) | (  1,  0,   0,   1 ) | (  0,  0 )
+ALU( 0, 0 ) | (  1,  0,   1,   0 ) | (  0,  0 )
+ALU( 0, 0 ) | (  1,  0,   1,   1 ) | (  0,  0 )
+ALU( 0, 0 ) | (  1,  1,   0,   0 ) | (  0,  1 )
+ALU( 0, 0 ) | (  1,  1,   0,   1 ) | (  0,  1 )
+ALU( 0, 0 ) | (  1,  1,   1,   0 ) | (  0,  1 )
+ALU( 0, 0 ) | (  1,  1,   1,   1 ) | (  0,  1 )
+ALU( 0, 1 ) | (  0,  0,   0,   0 ) | (  0,  0 )
+ALU( 0, 1 ) | (  0,  0,   0,   1 ) | (  0,  0 )
+ALU( 0, 1 ) | (  0,  0,   1,   0 ) | (  0,  0 )
+ALU( 0, 1 ) | (  0,  0,   1,   1 ) | (  0,  0 )
+ALU( 0, 1 ) | (  0,  1,   0,   0 ) | (  0,  0 )
+ALU( 0, 1 ) | (  0,  1,   0,   1 ) | (  0,  0 )
+ALU( 0, 1 ) | (  0,  1,   1,   0 ) | (  0,  0 )
+ALU( 0, 1 ) | (  0,  1,   1,   1 ) | (  0,  0 )
+ALU( 0, 1 ) | (  1,  0,   0,   0 ) | (  0,  0 )
+ALU( 0, 1 ) | (  1,  0,   0,   1 ) | (  0,  0 )
+ALU( 0, 1 ) | (  1,  0,   1,   0 ) | (  0,  0 )
+ALU( 0, 1 ) | (  1,  0,   1,   1 ) | (  0,  0 )
+ALU( 0, 1 ) | (  1,  1,   0,   0 ) | (  0,  1 )
+ALU( 0, 1 ) | (  1,  1,   0,   1 ) | (  0,  1 )
+ALU( 0, 1 ) | (  1,  1,   1,   0 ) | (  0,  1 )
+ALU( 0, 1 ) | (  1,  1,   1,   1 ) | (  0,  1 )
+ALU( 1, 0 ) | (  0,  0,   0,   0 ) | (  0,  0 )
+ALU( 1, 0 ) | (  0,  0,   0,   1 ) | (  0,  0 )
+ALU( 1, 0 ) | (  0,  0,   1,   0 ) | (  0,  0 )
+ALU( 1, 0 ) | (  0,  0,   1,   1 ) | (  0,  0 )
+ALU( 1, 0 ) | (  0,  1,   0,   0 ) | (  0,  1 )
+ALU( 1, 0 ) | (  0,  1,   0,   1 ) | (  0,  1 )
+ALU( 1, 0 ) | (  0,  1,   1,   0 ) | (  0,  1 )
+ALU( 1, 0 ) | (  0,  1,   1,   1 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  0,   0,   0 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  0,   0,   1 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  0,   1,   0 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  0,   1,   1 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  1,   0,   0 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  1,   0,   1 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  1,   1,   0 ) | (  0,  1 )
+ALU( 1, 0 ) | (  1,  1,   1,   1 ) | (  0,  1 )
+ALU( 1, 1 ) | (  0,  0,   0,   0 ) | (  0,  0 )
+ALU( 1, 1 ) | (  0,  0,   0,   1 ) | (  0,  0 )
+ALU( 1, 1 ) | (  0,  0,   1,   0 ) | (  0,  0 )
+ALU( 1, 1 ) | (  0,  0,   1,   1 ) | (  0,  0 )
+ALU( 1, 1 ) | (  0,  1,   0,   0 ) | (  0,  1 )
+ALU( 1, 1 ) | (  0,  1,   0,   1 ) | (  0,  1 )
+ALU( 1, 1 ) | (  0,  1,   1,   0 ) | (  0,  1 )
+ALU( 1, 1 ) | (  0,  1,   1,   1 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  0,   0,   0 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  0,   0,   1 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  0,   1,   0 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  0,   1,   1 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  1,   0,   0 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  1,   0,   1 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  1,   1,   0 ) | (  0,  1 )
+ALU( 1, 1 ) | (  1,  1,   1,   1 ) | (  0,  1 )
