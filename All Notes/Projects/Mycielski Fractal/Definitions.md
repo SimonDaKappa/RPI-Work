@@ -1,0 +1,1 @@
+1. Drawing Function - A function which, given $V(G), E(G)$, deterministically draws a $\mathbb{R}^2$ representation of G. This can take a variety of approaches and forms; for instance, [one drawing function](https://en.wikipedia.org/wiki/Force-directed_graph_drawing) could aim to preserve uniform edge lengths via compressive spring forces and repulsive coulombs law imitations.

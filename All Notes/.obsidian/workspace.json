@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "fbc5f7725d5f1c87",
+    "type": "split",
+    "children": [
+      {
+        "id": "a193a23dd464c192",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b15dc3319f3df59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RPI Work/Readme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0698f7f68936d46f",
+    "type": "split",
+    "children": [
+      {
+        "id": "822b5a114d2aaaf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e54388c6fa185557",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "313a66029c92adfe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "83262f7c41ca6b77",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3e16b053def04cf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2300fc2422845bbf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2d9826ce4f03a62",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "RPI Work/Readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ecf6ec7357a75b0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "RPI Work/Readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47edd57d919a9d85",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "653c52a1db205f2d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "RPI Work/Readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5b15dc3319f3df59",
+  "lastOpenFiles": [
+    "Pasted image 20230807154257.png",
+    "RPI Work/Readme.md",
+    "Projects/Mycielski Fractal/Mycielski Constructions.md",
+    "Projects/Mycielski Fractal/Definitions.md",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807153722.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807153625.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807152857.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807152903.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807152911.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807152934.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807152922.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807152839.png",
+    "Projects/Mycielski Fractal/Images/Pasted image 20230807152833.png",
+    "Projects/Readme.md",
+    "Projects/Mycielski Fractal/Images",
+    "Projects/Mycielski Fractal",
+    "Projects",
+    "RPI Work"
+  ]
+}
