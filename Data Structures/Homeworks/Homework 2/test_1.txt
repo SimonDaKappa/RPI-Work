@@ -1,0 +1,1147 @@
+word       count    a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z  
+------------------------------------------------------------------------------------------------
+loll           6                                     2        4                                 
+llano          4    1                                1        2                                 
+loan           4    1                                1        2                                 
+loon           4                                     1        3                                 
+olio           4                                     1        3                                 
+aioli          3    2                                         1                                 
+alit           3    3                                                                           
+allay          3    2                                                                       1   
+ally           3    2                                                                       1   
+anal           3    2                                1                                          
+annal          3    2                                1                                          
+anon           3    1                                         2                                 
+atilt          3    3                                                                           
+bloom          3       1                             1  1                                       
+dodo           3             1                                2                                 
+elite          3                            1        1                       1                  
+lain           3    2                       1                                                   
+lanai          3    2                       1                                                   
+lilt           3                            1        1                       1                  
+lite           3                            1        1                       1                  
+little         3                            1        1                       1                  
+loam           3    1                                1        1                                 
+loom           3                                     1  1     1                                 
+moll           3                                     1  1     1                                 
+moola          3    1                                1        1                                 
+nail           3    2                       1                                                   
+noon           3                                              3                                 
+oleo           3                                     1        2                                 
+ollie          3                                     1        2                                 
+tail           3    3                                                                           
+tali           3    3                                                                           
+tall           3    3                                                                           
+tattoo         3    1                                         1              1                  
+tile           3                            1        1                       1                  
+till           3                            1        1                       1                  
+tilt           3                            1        1                       1                  
+title          3                            1        1                       1                  
+tittle         3                            1        1                       1                  
+toot           3                                              1              2                  
+alibi          2    1                       1                                                   
+alien          2    1                       1                                                   
+allot          2    1                                         1                                 
+aloha          2    1                                         1                                 
+alto           2    1                                         1                                 
+ammo           2    1                                         1                                 
+amoral         2                                     1        1                                 
+anion          2    1                                         1                                 
+annotation     2    1                                         1                                 
+anoint         2    1                                         1                                 
+anti           2    2                                                                           
+arty           2                                                       1     1                  
+atoll          2    1                                         1                                 
+atonal         2    1                                         1                                 
+attain         2    2                                                                           
+attaint        2    2                                                                           
+attar          2                                                       1     1                  
+auto           2                                                             1  1               
+bail           2    1                       1                                                   
+ball           2    1                                1                                          
+bilabial       2    1                       1                                                   
+bill           2       1                    1                                                   
+blab           2    1                                1                                          
+blob           2       1                             1                                          
+boll           2       1                             1                                          
+bolo           2       1                             1                                          
+bomb           2       1                                1                                       
+boom           2       1                                1                                       
+cacao          2    1     1                                                                     
+coca           2    1     1                                                                     
+cocoa          2    1     1                                                                     
+cocoon         2          1                                   1                                 
+cone           2          1                                   1                                 
+digging        2             1              1                                                   
+dildo          2                                              2                                 
+ding           2             1              1                                                   
+dinging        2             1              1                                                   
+dining         2             1              1                                                   
+ditto          2                                              1              1                  
+doll           2                                              2                                 
+doodad         2             1                                1                                 
+dunno          2                                                                2               
+elfin          2                            1        1                                          
+feline         2                            1        1                                          
+fief           2                            2                                                   
+fife           2                            2                                                   
+file           2                            1        1                                          
+fill           2                            1        1                                          
+fine           2                            2                                                   
+halo           2    1                                         1                                 
+hellhole       2                                     1        1                                 
+hello          2                                     1        1                                 
+hole           2                                     1        1                                 
+hood           2             1                                1                                 
+hoodoo         2             1                                1                                 
+idiot          2                                              1              1                  
+idol           2                                              2                                 
+iffy           2                   1        1                                                   
+inane          2    1                       1                                                   
+infill         2                            1        1                                          
+initial        2    2                                                                           
+initiation     2    1                                         1                                 
+innie          2                            2                                                   
+into           2                                              1              1                  
+intonation     2    1                                         1                                 
+iota           2    1                                         1                                 
+labia          2    1                       1                                                   
+labial         2    1                       1                                                   
+lama           2    1                                1                                          
+lanolin        2    1                                         1                                 
+lantana        2    2                                                                           
+lien           2                            1        1                                          
+life           2                            1        1                                          
+lifeline       2                            1        1                                          
+limb           2       1                                1                                       
+limbo          2       1                                1                                       
+lime           2                            1           1                                       
+line           2                            1        1                                          
+lineal         2    1                       1                                                   
+linen          2                            1        1                                          
+lion           2                                              2                                 
+llama          2    1                                1                                          
+lobo           2       1                             1                                          
+loin           2                                              2                                 
+mall           2    1                                1                                          
+mammal         2    1                                1                                          
+mayo           2    1                                                                       1   
+mile           2                            1           1                                       
+mill           2                            1           1                                       
+mime           2                            1           1                                       
+mitt           2                            1                                1                  
+molar          2                                     1        1                                 
+momma          2    1                                         1                                 
+moral          2                                     1        1                                 
+naan           2    2                                                                           
+naif           2                   1        1                                                   
+nana           2    2                                                                           
+nanny          2                                                                            2   
+natal          2    2                                                                           
+natant         2    2                                                                           
+nation         2    1                                         1                                 
+national       2    1                                         1                                 
+neocon         2          1                                   1                                 
+nine           2                            2                                                   
+nonce          2          1                                   1                                 
+nonillion      2                                              2                                 
+normal         2                                     1        1                                 
+notation       2    1                                         1                                 
+notion         2                                              1              1                  
+notional       2    1                                         1                                 
+noun           2                                                                2               
+once           2          1                                   1                                 
+onion          2                                              2                                 
+onto           2                                              1              1                  
+oral           2                                     1        1                                 
+peel           2                                     1           1                              
+pile           2                                     1           1                              
+pill           2                                     1           1                              
+plie           2                                     1           1                              
+ratatat        2                                                       1     1                  
+ratty          2                                                       1     1                  
+roll           2                                     1        1                                 
+rutty          2                                                       1     1                  
+taint          2    2                                                                           
+talon          2    1                                         1                                 
+tannin         2    2                                                                           
+tarry          2                                                       1     1                  
+tart           2                                                       1     1                  
+tartar         2                                                       1     1                  
+tatty          2    1                                                        1                  
+taut           2                                                             1  1               
+tell           2                                     1                       1                  
+tint           2                                                             2                  
+titan          2    2                                                                           
+titillation    2    1                                         1                                 
+toad           2             1                                1                                 
+tonal          2    1                                         1                                 
+toon           2                                              1              1                  
+total          2    1                                         1                                 
+tout           2                                                             1  1               
+tray           2                                                       1     1                  
+tutu           2                                                             1  1               
+twit           2                            1                                1                  
+udon           2                                                                2               
+undo           2                                                                2               
+yurt           2                                                       1     1                  
+ability        1    1                                                                           
+abloom         1                                     1                                          
+ably           1    1                                                                           
+abnormal       1                                     1                                          
+acacia         1    1                                                                           
+acai           1    1                                                                           
+accede         1          1                                                                     
+acceded        1          1                                                                     
+acclaim        1    1                                                                           
+aced           1          1                                                                     
+acne           1          1                                                                     
+actor          1                                                             1                  
+actuary        1                                                             1                  
+actuator       1                                                             1                  
+acyclic        1    1                                                                           
+adapt          1             1                                                                  
+adaptor        1             1                                                                  
+adding         1             1                                                                  
+addition       1                                              1                                 
+additional     1                                              1                                 
+addling        1             1                                                                  
+adopt          1             1                                                                  
+afar           1                   1                                                            
+affair         1                   1                                                            
+affirm         1                   1                                                            
+affray         1                   1                                                            
+agony          1                                                                            1   
+ahoy           1                                                                            1   
+aiding         1             1                                                                  
+airy           1                                                       1                        
+alarm          1                                     1                                          
+alienate       1    1                                                                           
+allayed        1                                                                            1   
+allele         1    1                                                                           
+alley          1                                                                            1   
+alloy          1    1                                                                           
+alpine         1                                                 1                              
+amyl           1    1                                                                           
+anaconda       1          1                                                                     
+anally         1                                                                            1   
+analyze        1                                                                            1   
+analyzed       1                                                                            1   
+anneal         1    1                                                                           
+annihilation   1    1                                                                           
+annoy          1                                                                            1   
+ante           1    1                                                                           
+antenatal      1    1                                                                           
+antenna        1    1                                                                           
+antennae       1    1                                                                           
+anthill        1    1                                                                           
+anyhoo         1                                                                            1   
+aorta          1                                                             1                  
+apian          1                                                 1                              
+apnea          1                                                 1                              
+appall         1                                                 1                              
+appeal         1                                                 1                              
+appealable     1                                                 1                              
+appellee       1                                                 1                              
+apple          1                                                 1                              
+ardor          1             1                                                                  
+aria           1                                                       1                        
+armor          1                                              1                                 
+army           1                                                       1                        
+aroma          1                                              1                                 
+array          1                                                       1                        
+arthropod      1             1                                                                  
+arum           1                                                       1                        
+atria          1                                                       1                        
+atrium         1                                                       1                        
+attract        1                                                             1                  
+attractor      1                                                             1                  
+aunt           1                                                                1               
+aura           1                                                       1                        
+autocracy      1                                                             1                  
+autocrat       1                                                             1                  
+avail          1    1                                                                           
+availability   1    1                                                                           
+availably      1    1                                                                           
+azalea         1    1                                                                           
+baba           1    1                                                                           
+baby           1    1                                                                           
+bailee         1                            1                                                   
+bailiff        1                            1                                                   
+bait           1    1                                                                           
+balloon        1                                     1                                          
+ballroom       1                                     1                                          
+balm           1                                     1                                          
+banal          1                                     1                                          
+batty          1    1                                                                           
+beanie         1                            1                                                   
+beeline        1                            1                                                   
+beep           1                                                 1                              
+belie          1                            1                                                   
+belief         1                            1                                                   
+bialy          1    1                                                                           
+bible          1                            1                                                   
+biennia        1                            1                                                   
+biennial       1                            1                                                   
+biff           1                            1                                                   
+bile           1                            1                                                   
+billable       1                            1                                                   
+biome          1                                        1                                       
+biplane        1                                                 1                              
+blabby         1    1                                                                           
+blam           1                                     1                                          
+blat           1    1                                                                           
+bleep          1                                                 1                              
+blin           1                            1                                                   
+blini          1                            1                                                   
+blip           1                                                 1                              
+blog           1       1                                                                        
+boil           1       1                                                                        
+bola           1                                     1                                          
+bombe          1                                        1                                       
+boob           1       1                                                                        
+booboo         1       1                                                                        
+boor           1       1                                                                        
+brig           1       1                                                                        
+brim           1       1                                                                        
+brio           1       1                                                                        
+broil          1       1                                                                        
+broom          1       1                                                                        
+broomball      1                                     1                                          
+cadence        1          1                                                                     
+cadge          1          1                                                                     
+cadged         1          1                                                                     
+cage           1          1                                                                     
+caged          1          1                                                                     
+calico         1    1                                                                           
+call           1    1                                                                           
+calla          1    1                                                                           
+callaloo       1    1                                                                           
+calm           1    1                                                                           
+calmly         1    1                                                                           
+cami           1    1                                                                           
+camo           1    1                                                                           
+cancan         1          1                                                                     
+cane           1          1                                                                     
+caned          1          1                                                                     
+canna          1          1                                                                     
+canned         1          1                                                                     
+cannon         1          1                                                                     
+cannonade      1          1                                                                     
+canoe          1          1                                                                     
+canoed         1          1                                                                     
+canon          1          1                                                                     
+carat          1                                                             1                  
+carrot         1                                                             1                  
+carryout       1                                                             1                  
+cart           1                                                             1                  
+cataract       1                                                             1                  
+catty          1                                                             1                  
+cede           1          1                                                                     
+ceded          1          1                                                                     
+cell           1                                     1                                          
+celli          1                                     1                                          
+cello          1                                              1                                 
+cellule        1                                                                1               
+cent           1                                                             1                  
+ciao           1    1                                                                           
+cilia          1    1                                                                           
+cite           1                                                             1                  
+civet          1                                                             1                  
+claim          1    1                                                                           
+clam           1    1                                                                           
+clammy         1    1                                                                           
+clay           1    1                                                                           
+clef           1                                     1                                          
+cleft          1                                     1                                          
+client         1                                     1                                          
+clientele      1                                     1                                          
+cliff          1                                     1                                          
+clinic         1                                     1                                          
+cloaca         1    1                                                                           
+clone          1                                              1                                 
+cloud          1                                                                1               
+clouded        1                                                                1               
+clue           1                                                                1               
+clued          1                                                                1               
+coact          1                                                             1                  
+coactor        1                                                             1                  
+coal           1    1                                                                           
+coat           1                                                             1                  
+cocci          1                                              1                                 
+cocooned       1          1                                                                     
+coda           1          1                                                                     
+code           1          1                                                                     
+coded          1          1                                                                     
+codon          1          1                                                                     
+coed           1          1                                                                     
+cognac         1          1                                                                     
+coil           1                                              1                                 
+coin           1                                              1                                 
+cola           1    1                                                                           
+colic          1                                              1                                 
+colleen        1                                              1                                 
+collie         1                                              1                                 
+collude        1                                                                1               
+colluded       1                                                                1               
+colon          1                                              1                                 
+colonel        1                                              1                                 
+colonic        1                                              1                                 
+coma           1    1                                                                           
+comical        1    1                                                                           
+comically      1    1                                                                           
+comma          1    1                                                                           
+concede        1          1                                                                     
+conceded       1          1                                                                     
+conclude       1                                                                1               
+concluded      1                                                                1               
+condo          1          1                                                                     
+condone        1          1                                                                     
+condoned       1          1                                                                     
+coned          1          1                                                                     
+conga          1          1                                                                     
+congaed        1          1                                                                     
+conic          1                                              1                                 
+conned         1          1                                                                     
+cooed          1          1                                                                     
+cool           1                                              1                                 
+coot           1                                                             1                  
+could          1                                                                1               
+coulee         1                                                                1               
+court          1                                                             1                  
+cuddle         1                                                                1               
+cuddled        1                                                                1               
+cued           1                                                                1               
+cull           1                                                                1               
+culled         1                                                                1               
+curator        1                                                             1                  
+curt           1                                                             1                  
+cutout         1                                                             1                  
+cyclical       1    1                                                                           
+cyclically     1    1                                                                           
+dace           1          1                                                                     
+daddy          1                                                                            1   
+dally          1                                                                            1   
+dance          1          1                                                                     
+danced         1          1                                                                     
+dandy          1                                                                            1   
+dang           1             1                                                                  
+dangling       1             1                                                                  
+dart           1             1                                                                  
+data           1             1                                                                  
+daunt          1                                                                1               
+dazedly        1                                                                            1   
+dazing         1             1                                                                  
+dazzling       1             1                                                                  
+deacon         1          1                                                                     
+deadeye        1                                                                            1   
+deadly         1                                                                            1   
+decade         1          1                                                                     
+decadence      1          1                                                                     
+decagon        1          1                                                                     
+deco           1          1                                                                     
+decode         1          1                                                                     
+decoded        1          1                                                                     
+deduce         1                                                                1               
+deduced        1                                                                1               
+deeding        1                            1                                                   
+defending      1                            1                                                   
+defied         1                            1                                                   
+define         1                            1                                                   
+defined        1                            1                                                   
+defining       1                            1                                                   
+defying        1                            1                                                   
+deified        1                            1                                                   
+deify          1                            1                                                   
+deifying       1                            1                                                   
+deign          1                            1                                                   
+deigned        1                            1                                                   
+deigning       1                            1                                                   
+delay          1                                                                            1   
+delayed        1                                                                            1   
+delude         1                                                                1               
+deluded        1                                                                1               
+denied         1                            1                                                   
+denounce       1                                                                1               
+denounced      1                                                                1               
+denude         1                                                                1               
+denuded        1                                                                1               
+deny           1                                                                            1   
+denying        1                            1                                                   
+deuce          1                                                                1               
+dial           1             1                                                                  
+dialing        1             1                                                                  
+diddling       1             1                                                                  
+died           1                            1                                                   
+dignified      1                            1                                                   
+dignify        1                            1                                                   
+dignifying     1                            1                                                   
+dilation       1                                              1                                 
+dill           1             1                                                                  
+dimwit         1                                                             1                  
+dine           1                            1                                                   
+dined          1                            1                                                   
+dinged         1                            1                                                   
+dingy          1                            1                                                   
+dino           1                                              1                                 
+dint           1                                                             1                  
+diode          1                                              1                                 
+dodecagon      1          1                                                                     
+dole           1                                              1                                 
+doled          1                                              1                                 
+dolled         1                                              1                                 
+dollied        1                                              1                                 
+dolt           1                                              1                                 
+donation       1                                              1                                 
+donut          1                                                                1               
+doodle         1                                              1                                 
+doodled        1                                              1                                 
+door           1             1                                                                  
+dotard         1             1                                                                  
+doth           1             1                                                                  
+downtown       1                                                             1                  
+drat           1             1                                                                  
+droop          1             1                                                                  
+drop           1             1                                                                  
+dude           1                                                                1               
+duded          1                                                                1               
+duel           1                                                                1               
+dueled         1                                                                1               
+dull           1                                                                1               
+dulled         1                                                                1               
+dunce          1                                                                1               
+dune           1                                                                1               
+dunned         1                                                                1               
+dyad           1                                                                            1   
+dyed           1                                                                            1   
+dyeing         1                            1                                                   
+dying          1                            1                                                   
+dyne           1                                                                            1   
+eaten          1    1                                                                           
+eclectic       1                                     1                                          
+eddied         1                            1                                                   
+eddy           1                                                                            1   
+eddying        1                            1                                                   
+edging         1                            1                                                   
+edified        1                            1                                                   
+edify          1                            1                                                   
+edifying       1                            1                                                   
+educe          1                                                                1               
+educed         1                                                                1               
+eely           1                                                                            1   
+effect         1                                                             1                  
+effective      1                                                             1                  
+effete         1                                                             1                  
+efficient      1                                                             1                  
+effigy         1                            1                                                   
+egging         1                            1                                                   
+eight          1                            1                                                   
+eighth         1                            1                                                   
+eightieth      1                            1                                                   
+eighty         1                            1                                                   
+elan           1    1                                                                           
+elate          1    1                                                                           
+elect          1                                     1                                          
+electee        1                                     1                                          
+elicit         1                                     1                                          
+elope          1                                     1                                          
+elude          1                                                                1               
+eluded         1                                                                1               
+embezzle       1                                        1                                       
+emblem         1                                        1                                       
+emit           1                            1                                                   
+encage         1          1                                                                     
+encaged        1          1                                                                     
+encode         1          1                                                                     
+encoded        1          1                                                                     
+ending         1                            1                                                   
+endue          1                                                                1               
+endued         1                                                                1               
+engine         1                            1                                                   
+entail         1    1                                                                           
+entente        1                                                             1                  
+entice         1                                                             1                  
+entitle        1                                     1                                          
+epee           1                                                 1                              
+epilog         1                                     1                                          
+event          1                                                             1                  
+evict          1                                                             1                  
+evictee        1                                                             1                  
+evil           1                            1                                                   
+exit           1                                                             1                  
+expletive      1                                                             1                  
+eyed           1                                                                            1   
+eyeing         1                            1                                                   
+eying          1                            1                                                   
+fail           1                            1                                                   
+fair           1                   1                                                            
+fairy          1                   1                                                            
+fallible       1                            1                                                   
+fanny          1                   1                                                            
+farina         1                   1                                                            
+farm           1                   1                                                            
+feeding        1                            1                                                   
+feel           1                                     1                                          
+feet           1                                                             1                  
+feign          1                            1                                                   
+feigned        1                            1                                                   
+feigning       1                            1                                                   
+feint          1                                                             1                  
+fell           1                                     1                                          
+felt           1                                     1                                          
+fending        1                            1                                                   
+fennel         1                                     1                                          
+fete           1                                                             1                  
+fettle         1                                     1                                          
+fictive        1                                                             1                  
+fiend          1                            1                                                   
+fifed          1                            1                                                   
+fifing         1                            1                                                   
+fifteen        1                                                             1                  
+filet          1                                     1                                          
+filial         1                            1                                                   
+fillet         1                                     1                                          
+final          1                            1                                                   
+finale         1                            1                                                   
+find           1                            1                                                   
+finding        1                            1                                                   
+fined          1                            1                                                   
+finial         1                            1                                                   
+fining         1                            1                                                   
+finite         1                                                             1                  
+finned         1                            1                                                   
+firm           1                   1                                                            
+flail          1                            1                                                   
+flee           1                                     1                                          
+fleece         1                                     1                                          
+fleet          1                                     1                                          
+flint          1                                     1                                          
+flit           1                                     1                                          
+fray           1                   1                                                            
+friar          1                   1                                                            
+friary         1                   1                                                            
+gadding        1             1                                                                  
+gamy           1                                                                            1   
+gangland       1             1                                                                  
+gelee          1                                     1                                          
+genie          1                            1                                                   
+genii          1                            1                                                   
+giddy          1                            1                                                   
+giggle         1                                     1                                          
+gigolo         1                                     1                                          
+gild           1             1                                                                  
+gilding        1             1                                                                  
+gill           1                                     1                                          
+ginned         1                            1                                                   
+ginning        1                            1                                                   
+glad           1             1                                                                  
+gland          1             1                                                                  
+glee           1                                     1                                          
+glib           1       1                                                                        
+gliding        1             1                                                                  
+glob           1       1                                                                        
+gloop          1                                     1                                          
+glop           1                                     1                                          
+goggle         1                                     1                                          
+google         1                                     1                                          
+googol         1                                     1                                          
+goony          1                                                                            1   
+hail           1    1                                                                           
+halal          1    1                                                                           
+hall           1    1                                                                           
+halt           1    1                                                                           
+hammy          1                                                                            1   
+handout        1                                                                1               
+hard           1             1                                                                  
+hardhat        1             1                                                                  
+hardtop        1             1                                                                  
+hath           1    1                                                                           
+hatha          1    1                                                                           
+haunt          1                                                                1               
+heel           1                                     1                                          
+height         1                            1                                                   
+hell           1                                     1                                          
+help           1                                     1                                          
+high           1                            1                                                   
+hill           1                                     1                                          
+hoagy          1                                                                            1   
+hoar           1                                              1                                 
+hoard          1             1                                                                  
+hoed           1                                              1                                 
+hoke           1                                              1                                 
+hold           1                                              1                                 
+holed          1                                              1                                 
+homogamy       1                                                                            1   
+homonym        1                                                                            1   
+homonymy       1                                                                            1   
+honor          1                                              1                                 
+hooded         1                                              1                                 
+hoodie         1                                              1                                 
+hook           1                                              1                                 
+hooked         1                                              1                                 
+hoorah         1                                              1                                 
+hora           1                                              1                                 
+horal          1                                              1                                 
+hormonal       1                                              1                                 
+horn           1                                              1                                 
+horror         1                                              1                                 
+hotrod         1             1                                                                  
+hound          1                                                                1               
+hunt           1                                                                1               
+hymn           1                                                                            1   
+icicle         1                                     1                                          
+icon           1                                              1                                 
+iconic         1                                              1                                 
+idling         1             1                                                                  
+igloo          1                                     1                                          
+ileum          1                            1                                                   
+iliac          1    1                                                                           
+ilium          1                            1                                                   
+illicit        1                                     1                                          
+imam           1    1                                                                           
+imbibe         1                                        1                                       
+imbroglio      1       1                                                                        
+immaturity     1                                                       1                        
+immobile       1                                        1                                       
+immobilize     1                                        1                                       
+inalienable    1                            1                                                   
+incentive      1                                                             1                  
+incite         1                                                             1                  
+incline        1                                     1                                          
+indeed         1                            1                                                   
+indie          1                            1                                                   
+indigene       1                            1                                                   
+ineffable      1                            1                                                   
+ineffective    1                                                             1                  
+inefficient    1                                                             1                  
+infallible     1                            1                                                   
+infamy         1                   1                                                            
+infect         1                                                             1                  
+infective      1                                                             1                  
+infinite       1                                                             1                  
+infinitive     1                                                             1                  
+infirm         1                   1                                                            
+infirmary      1                   1                                                            
+inflect        1                                     1                                          
+inflict        1                                     1                                          
+inhalant       1    1                                                                           
+inhalation     1    1                                                                           
+initialize     1    1                                                                           
+initiate       1    1                                                                           
+inlaid         1             1                                                                  
+inland         1             1                                                                  
+inlet          1                                     1                                          
+innate         1    1                                                                           
+inning         1                            1                                                   
+innocence      1                                              1                                 
+intel          1                                     1                                          
+intellect      1                                     1                                          
+intent         1                                                             1                  
+invective      1                                                             1                  
+invent         1                                                             1                  
+inventive      1                                                             1                  
+invite         1                                                             1                  
+invitee        1                                                             1                  
+ionic          1                                              1                                 
+item           1                            1                                                   
+itty           1                            1                                                   
+kiddo          1                                              1                                 
+kilo           1                                              1                                 
+kohl           1                                              1                                 
+kook           1                                              1                                 
+labile         1                            1                                                   
+lability       1    1                                                                           
+labor          1                                     1                                          
+lacy           1    1                                                                           
+lading         1             1                                                                  
+ladling        1             1                                                                  
+lady           1                                                                            1   
+laic           1    1                                                                           
+laical         1    1                                                                           
+laid           1             1                                                                  
+laity          1    1                                                                           
+lamb           1                                     1                                          
+land           1             1                                                                  
+landing        1             1                                                                  
+landlady       1                                                                            1   
+lane           1    1                                                                           
+lapel          1                                                 1                              
+late           1    1                                                                           
+lateen         1    1                                                                           
+laten          1    1                                                                           
+latent         1    1                                                                           
+lath           1    1                                                                           
+latte          1    1                                                                           
+lava           1    1                                                                           
+laze           1    1                                                                           
+lazy           1                                                                            1   
+leadenly       1                                                                            1   
+lean           1    1                                                                           
+leanly         1                                                                            1   
+leant          1    1                                                                           
+leap           1                                                 1                              
+left           1                                     1                                          
+leftie         1                                     1                                          
+lenience       1                                     1                                          
+lenient        1                                     1                                          
+lent           1                                     1                                          
+lentil         1                                     1                                          
+leonine        1                                              1                                 
+lexicon        1                                              1                                 
+liability      1    1                                                                           
+liable         1                            1                                                   
+libel          1                            1                                                   
+libelee        1                            1                                                   
+lice           1                                     1                                          
+licit          1                                     1                                          
+liege          1                                     1                                          
+lieu           1                            1                                                   
+lift           1                                     1                                          
+likelihood     1                                              1                                 
+lilac          1    1                                                                           
+lima           1    1                                                                           
+limit          1                            1                                                   
+limo           1                                        1                                       
+linnet         1                                     1                                          
+lint           1                                     1                                          
+lintel         1                                     1                                          
+lipo           1                                     1                                          
+livability     1    1                                                                           
+live           1                            1                                                   
+load           1                                              1                                 
+loamy          1    1                                                                           
+loath          1    1                                                                           
+local          1    1                                                                           
+locally        1    1                                                                           
+loci           1                                              1                                 
+loco           1                                              1                                 
+lode           1                                              1                                 
+loge           1                                     1                                          
+logo           1                                     1                                          
+logophile      1                                     1                                          
+lolled         1                                              1                                 
+lollipop       1                                     1                                          
+lollop         1                                     1                                          
+lone           1                                              1                                 
+look           1                                              1                                 
+looked         1                                              1                                 
+loonie         1                                              1                                 
+loop           1                                     1                                          
+loophole       1                                     1                                          
+loot           1                                              1                                 
+lope           1                                     1                                          
+lotion         1                                              1                                 
+lotto          1                                              1                                 
+loud           1                                                                1               
+louden         1                                                                1               
+loudened       1                                                                1               
+loyal          1    1                                                                           
+loyally        1    1                                                                           
+lull           1                                                                1               
+lulled         1                                                                1               
+lulu           1                                                                1               
+lune           1                                                                1               
+mafia          1                   1                                                            
+mahogany       1                                                                            1   
+mail           1    1                                                                           
+maim           1    1                                                                           
+malic          1    1                                                                           
+mama           1    1                                                                           
+mamma          1    1                                                                           
+mammary        1                                                       1                        
+mammon         1                                              1                                 
+mangy          1                                                                            1   
+manor          1                                              1                                 
+many           1                                                                            1   
+marm           1                                                       1                        
+maroon         1                                              1                                 
+marry          1                                                       1                        
+mart           1                                                       1                        
+martyr         1                                                       1                        
+maturity       1                                                       1                        
+melee          1                                        1                                       
+meme           1                                        1                                       
+memo           1                                        1                                       
+meze           1                                        1                                       
+mezze          1                                        1                                       
+mezzo          1                                        1                                       
+mica           1    1                                                                           
+midtown        1                                                             1                  
+miff           1                   1                                                            
+milieu         1                            1                                                   
+millet         1                            1                                                   
+mimeo          1                                        1                                       
+mint           1                                                             1                  
+mite           1                            1                                                   
+moan           1                                              1                                 
+mobile         1                                        1                                       
+mobilize       1                                        1                                       
+moil           1                                        1                                       
+mole           1                                        1                                       
+mommy          1                                                                            1   
+mono           1                                              1                                 
+monogamy       1                                                                            1   
+mononym        1                                                                            1   
+moolah         1                                              1                                 
+moon           1                                              1                                 
+moony          1                                                                            1   
+moor           1                                              1                                 
+moot           1                                                             1                  
+morn           1                                              1                                 
+moron          1                                              1                                 
+motion         1                                                             1                  
+motto          1                                                             1                  
+multilevel     1                            1                                                   
+murmur         1                                                       1                        
+myna           1                                                                            1   
+mynah          1                                                                            1   
+nada           1             1                                                                  
+naggy          1                                                                            1   
+naiad          1             1                                                                  
+nape           1                                                 1                              
+neap           1                                                 1                              
+neat           1    1                                                                           
+neaten         1    1                                                                           
+needing        1                            1                                                   
+needy          1                                                                            1   
+neon           1                                              1                                 
+nettle         1                                     1                                          
+nibble         1                            1                                                   
+ninepin        1                                                 1                              
+nineteen       1                                                             1                  
+ninny          1                            1                                                   
+nipple         1                                                 1                              
+nite           1                                                             1                  
+nitwit         1                                                             1                  
+nodule         1                                                                1               
+noel           1                                              1                                 
+none           1                                              1                                 
+norm           1                                              1                                 
+nucleon        1                                                                1               
+nude           1                                                                1               
+null           1                                                                1               
+nunhood        1                                                                1               
+oath           1    1                                                                           
+oaty           1                                                             1                  
+occlude        1                                                                1               
+occluded       1                                                                1               
+ocean          1          1                                                                     
+odor           1             1                                                                  
+ogle           1                                     1                                          
+oiled          1                                              1                                 
+oldie          1                                              1                                 
+oleic          1                                              1                                 
+omit           1                                                             1                  
+online         1                                              1                                 
+orator         1                                                             1                  
+oratory        1                                                             1                  
+ounce          1                                                                1               
+outcry         1                                                             1                  
+outdo          1                                                                1               
+outro          1                                                             1                  
+oxen           1                                              1                                 
+paean          1                                                 1                              
+paella         1                                                 1                              
+pail           1                                                 1                              
+pain           1                                                 1                              
+palapa         1                                                 1                              
+pale           1                                                 1                              
+pall           1                                                 1                              
+palp           1                                                 1                              
+palpable       1                                                 1                              
+pane           1                                                 1                              
+panel          1                                                 1                              
+panini         1                                                 1                              
+papa           1                                                 1                              
+papal          1                                                 1                              
+papilla        1                                                 1                              
+papillae       1                                                 1                              
+parador        1             1                                                                  
+paradrop       1             1                                                                  
+peal           1                                                 1                              
+pebble         1                                                 1                              
+peelable       1                                                 1                              
+peen           1                                                 1                              
+peep           1                                                 1                              
+peephole       1                                     1                                          
+pellet         1                                                             1                  
+pelt           1                                                             1                  
+penal          1                                                 1                              
+penile         1                                                 1                              
+penne          1                                                 1                              
+people         1                                     1                                          
+petit          1                                                             1                  
+petite         1                                                             1                  
+piehole        1                                     1                                          
+pinball        1                                                 1                              
+pine           1                                                 1                              
+pineapple      1                                                 1                              
+pipe           1                                                 1                              
+pipeline       1                                                 1                              
+pipet          1                                                             1                  
+pipette        1                                                             1                  
+pipit          1                                                             1                  
+pippin         1                                                 1                              
+plain          1                                                 1                              
+plan           1                                                 1                              
+plane          1                                                 1                              
+plea           1                                                 1                              
+pleb           1                                                 1                              
+plebe          1                                                 1                              
+plebeian       1                                                 1                              
+plena          1                                                 1                              
+pliable        1                                                 1                              
+plop           1                                     1                                          
+pole           1                                     1                                          
+polio          1                                     1                                          
+poll           1                                     1                                          
+polo           1                                     1                                          
+pool           1                                     1                                          
+prod           1             1                                                                  
+radar          1             1                                                                  
+raffia         1                   1                                                            
+raita          1                                                       1                        
+ramify         1                   1                                                            
+rarity         1                                                       1                        
+riff           1                   1                                                            
+riffraff       1                   1                                                            
+road           1             1                                                                  
+roam           1                                              1                                 
+roan           1                                              1                                 
+roar           1                                              1                                 
+rollbar        1                                     1                                          
+rood           1             1                                                                  
+room           1                                              1                                 
+root           1                                                             1                  
+rotary         1                                                             1                  
+rotator        1                                                             1                  
+rotatory       1                                                             1                  
+rotor          1                                                             1                  
+rout           1                                                             1                  
+rummy          1                                                       1                        
+tabby          1    1                                                                           
+tabla          1    1                                                                           
+taco           1                                                             1                  
+tact           1                                                             1                  
+tahini         1    1                                                                           
+tale           1    1                                                                           
+talent         1    1                                                                           
+tally          1    1                                                                           
+tamari         1                                                       1                        
+tantalize      1    1                                                                           
+taro           1                                                             1                  
+tarot          1                                                             1                  
+tattle         1    1                                                                           
+tattletale     1    1                                                                           
+taunt          1                                                                1               
+teal           1    1                                                                           
+teat           1    1                                                                           
+teen           1                                                             1                  
+teepee         1                                                             1                  
+teletext       1                                                             1                  
+telex          1                                                             1                  
+telltale       1    1                                                                           
+telnet         1                                     1                                          
+tenant         1    1                                                                           
+tenet          1                                                             1                  
+tent           1                                                             1                  
+tepee          1                                                             1                  
+text           1                                                             1                  
+textile        1                                                             1                  
+than           1    1                                                                           
+that           1    1                                                                           
+thigh          1                            1                                                   
+thou           1                                                                1               
+thud           1                                                                1               
+tiara          1                                                       1                        
+tibia          1    1                                                                           
+tibial         1    1                                                                           
+tiff           1                                                             1                  
+tight          1                            1                                                   
+time           1                            1                                                   
+timid          1                                                             1                  
+tinct          1                                                             1                  
+tine           1                                                             1                  
+tippet         1                                                             1                  
+tipple         1                                                             1                  
+tithe          1                            1                                                   
+titillate      1    1                                                                           
+toccata        1                                                             1                  
+toil           1                                              1                                 
+told           1                                              1                                 
+toll           1                                              1                                 
+tomtit         1                                                             1                  
+tool           1                                              1                                 
+toro           1                                                             1                  
+tort           1                                                             1                  
+tour           1                                                             1                  
+town           1                                                             1                  
+tract          1                                                             1                  
+tractor        1                                                             1                  
+trait          1                                                       1                        
+tram           1                                                       1                        
+trapdoor       1             1                                                                  
+trauma         1                                                       1                        
+trim           1                                                       1                        
+tritium        1                                                       1                        
+trod           1             1                                                                  
+trot           1                                                             1                  
+trout          1                                                             1                  
+troy           1                                                             1                  
+tryout         1                                                             1                  
+tuna           1                                                                1               
+tutor          1                                                             1                  
+tutti          1                            1                                                   
+twig           1                            1                                                   
+twin           1                                                             1                  
+tyro           1                                                             1                  
+uncle          1                                                                1               
+uncool         1                                                                1               
+undone         1                                                                1               
+undue          1                                                                1               
+unhand         1                                                                1               
+unhat          1                                                                1               
+unhood         1                                                                1               
+unneeded       1                                                                1               
+unto           1                                                                1               
+utile          1                            1                                                   
+veil           1                            1                                                   
+velvet         1                                                             1                  
+vent           1                                                             1                  
+viability      1    1                                                                           
+viably         1    1                                                                           
+vial           1    1                                                                           
+vile           1                            1                                                   
+villa          1    1                                                                           
+vital          1    1                                                                           
+vitality       1    1                                                                           
+vitally        1    1                                                                           
+weigh          1                            1                                                   
+weight         1                            1                                                   
+weighty        1                            1                                                   
+whit           1                            1                                                   
+white          1                            1                                                   
+wiggy          1                            1                                                   
+wight          1                            1                                                   
+with           1                            1                                                   
+witty          1                            1                                                   
+wont           1                                                             1                  
+wonton         1                                                             1                  
+woot           1                                                             1                  
+xenon          1                                              1                                 
+yahoo          1                                                                            1   
+yang           1                                                                            1   
+yell           1                                                                            1   
+yelled         1                                                                            1   
+yenned         1                                                                            1   
+yenning        1                            1                                                   
+yeti           1                            1                                                   
+yoga           1                                                                            1   
+yoohoo         1                                                                            1   
+yttrium        1                                                       1                        
+zany           1                                                                            1   
+zeal           1    1                                                                           
+zeta           1    1                                                                           
+zinnia         1    1                                                                           
+zombie         1                                        1                                       
+zoom           1                                        1                                       

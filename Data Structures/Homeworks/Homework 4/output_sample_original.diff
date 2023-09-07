@@ -1,0 +1,8 @@
+2 REPLACE "brown"
+3 REPLACE "fox"
+4 REPLACE "jumped"
+5 REPLACE "over"
+6 INSERT "the"
+7 REPLACE "lazy"
+8 REPLACE "dogs"
+9 ERASE

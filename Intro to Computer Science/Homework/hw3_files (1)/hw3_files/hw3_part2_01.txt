@@ -1,0 +1,48 @@
+How many turns? => 10
+10
+What is the name of your pikachu? => Piki
+Piki
+How often do we see a Pokemon (turns)? => 2
+2
+
+Starting simulation, turn 0 Piki at (75, 75)
+What direction does Piki walk? => n
+n
+What direction does Piki walk? => N
+N
+Turn 2, Piki at (65, 75)
+What type of pokemon do you meet (W)ater, (G)round? => w
+w
+Piki wins and moves to (64, 75)
+What direction does Piki walk? => E
+E
+What direction does Piki walk? => e
+e
+Turn 4, Piki at (64, 85)
+What type of pokemon do you meet (W)ater, (G)round? => G
+G
+Piki runs away to (64, 75)
+What direction does Piki walk? => w
+w
+What direction does Piki walk? => W
+W
+Turn 6, Piki at (64, 65)
+What type of pokemon do you meet (W)ater, (G)round? => r
+r
+What direction does Piki walk? => S
+S
+What direction does Piki walk? => s
+s
+Turn 8, Piki at (74, 65)
+What type of pokemon do you meet (W)ater, (G)round? => g
+g
+Piki runs away to (64, 65)
+What direction does Piki walk? => f
+f
+What direction does Piki walk? => w
+w
+Turn 10, Piki at (64, 60)
+What type of pokemon do you meet (W)ater, (G)round? => W
+W
+Piki wins and moves to (64, 59)
+Piki ends up at (64, 59), Record: ['Win', 'Lose', 'No Pokemon', 'Lose', 'Win']

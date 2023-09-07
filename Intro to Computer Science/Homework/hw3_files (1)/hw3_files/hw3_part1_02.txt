@@ -1,0 +1,8 @@
+Enter a paragraph => We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.
+We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.
+
+Here are the hard words in this paragraph:
+['unalienable', 'Liberty', 'Happiness.']
+Statistics: ASL:35.00 PHW:8.57% ASYL:1.51
+Readability index (GFRI): 17.43
+Readability index (FKRI): 40.48

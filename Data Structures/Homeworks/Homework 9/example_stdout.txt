@@ -1,0 +1,8 @@
+FOUND CONSTELLATION Ursa_Minor
+assigning  STAR_00008  β_UMi
+assigning  STAR_00012  γ_UMi
+assigning  STAR_00016  δ_UMi
+assigning  STAR_00018  ε_UMi
+assigning  STAR_00020  ζ_UMi
+assigning  STAR_00024  η_UMi
+assigning  STAR_00028  Polaris

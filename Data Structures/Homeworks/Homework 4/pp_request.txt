@@ -1,0 +1,3 @@
+apply_diff WORD pp_original.txt pp_diff.diff pp_applied.txt
+invert_diff WORD pp_original.txt pp_diff.diff pp_diff_reversed.diff
+apply_diff WORD pp_applied.txt pp_diff_reversed.diff pp_r_applied.txt

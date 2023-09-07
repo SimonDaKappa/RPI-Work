@@ -1,0 +1,8 @@
+Enter a paragraph => There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.
+There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.
+
+Here are the hard words in this paragraph:
+['discovers', 'exactly', 'Universe', 'instantly', 'disappear', 'something', 'inexplicable.', 'another', 'already']
+Statistics: ASL:23.50 PHW:19.15% ASYL:1.64
+Readability index (GFRI): 17.06
+Readability index (FKRI): 41.43

@@ -1,0 +1,10 @@
+string = input("Enter the frame string => ")
+exp = int(input("Enter an integer expansion factor > 1 => "))
+
+top = string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) + "\n"*((exp-1)*len(string))
+bottom = string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) 
+toptemp =  len(string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)) + string + " "*((exp-1)*len(string)))
+print(top)
+mid =  string + " "*(3*(exp-1)*len(string)+(2*(len(string)))) + string + "\n"*((exp-1)*len(string))
+print(mid,mid,sep="\n")
+print(bottom)

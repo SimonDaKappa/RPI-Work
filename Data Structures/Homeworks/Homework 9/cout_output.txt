@@ -1,0 +1,114 @@
+Constellation Size =7
+Hashed Pair: 87.067
+Star1: Star    446.47   412.32     4.21  Ursa_Minor           ε_UMi    
+Star2: Star    473.30   495.15     4.29  Ursa_Minor           ζ_UMi    
+Hashed Pair: 80.93
+Star1: Star    466.45   333.89     4.35  Ursa_Minor           δ_UMi    
+Star2: Star    446.47   412.32     4.21  Ursa_Minor           ε_UMi    
+Hashed Pair: 96.74
+Star1: Star    492.26   600.57     3.04  Ursa_Minor           γ_UMi    
+Star2: Star    433.75   523.53     4.95  Ursa_Minor           η_UMi    
+Hashed Pair: 48.68
+Star1: Star    473.30   495.15     4.29  Ursa_Minor           ζ_UMi    
+Star2: Star    433.75   523.53     4.95  Ursa_Minor           η_UMi    
+Hashed Pair: 84.52
+Star1: Star    528.93   558.78     2.07  Ursa_Minor           β_UMi    
+Star2: Star    473.30   495.15     4.29  Ursa_Minor           ζ_UMi    
+Hashed Pair: 55.60
+Star1: Star    528.93   558.78     2.07  Ursa_Minor           β_UMi    
+Star2: Star    492.26   600.57     3.04  Ursa_Minor           γ_UMi    
+Hashed Pair: 68.26
+Star1: Star    497.59   273.15     1.97  Ursa_Minor           Polaris   
+Star2: Star    466.45   333.89     4.35  Ursa_Minor           δ_UMi    
+
+Map Pair: Dist 55.60
+Stara : Star    528.93   558.78     2.07  Ursa_Minor           β_UMi    
+Starb : Star    492.26   600.57     3.04  Ursa_Minor           γ_UMi    
+dist = 55.60
+star1 : Star    562.02   521.11    -1.00  Unknown              STAR_00008
+star2 : Star    565.64   576.59    -1.00  Unknown              STAR_00012
+
+Testing (β_UMi:STAR_00008,γ_UMi,STAR_00012)
+Intersection = (500.00,500.00)
+dist(β_UMi,I) = 65.51, dist(STAR_00008,I) = 65.51
+dist(γ_UMi,I) = 100.87, dist(STAR_00012,I) = 100.87
+PAIR FOUND A1 B2 
+
+Map Pair: Dist 84.52
+Stara : Star    528.93   558.78     2.07  Ursa_Minor           β_UMi    
+Starb : Star    473.30   495.15     4.29  Ursa_Minor           ζ_UMi    
+dist = 84.52
+star1 : Star    562.02   521.11     2.07  Ursa_Minor           β_UMi    
+star2 : Star    477.69   515.45    -1.00  Unknown              STAR_00020
+
+Testing (β_UMi:β_UMi,ζ_UMi,STAR_00020)
+Intersection = (500.00,500.00)
+dist(β_UMi,I) = 65.51, dist(β_UMi,I) = 65.51
+dist(ζ_UMi,I) = 27.14, dist(STAR_00020,I) = 27.14
+PAIR FOUND A1 B2 
+
+Map Pair: Dist 96.74
+Stara : Star    492.26   600.57     3.04  Ursa_Minor           γ_UMi    
+Starb : Star    433.75   523.53     4.95  Ursa_Minor           η_UMi    
+dist = 96.74
+star1 : Star    565.64   576.59     3.04  Ursa_Minor           γ_UMi    
+star2 : Star    469.79   563.48    -1.00  Unknown              STAR_00024
+
+Testing (γ_UMi:γ_UMi,η_UMi,STAR_00024)
+Intersection = (500.00,499.99)
+dist(γ_UMi,I) = 100.87, dist(γ_UMi,I) = 100.87
+dist(η_UMi,I) = 70.31, dist(STAR_00024,I) = 70.31
+PAIR FOUND A1 B2 
+
+Map Pair: Dist 80.93
+Stara : Star    466.45   333.89     4.35  Ursa_Minor           δ_UMi    
+Starb : Star    446.47   412.32     4.21  Ursa_Minor           ε_UMi    
+dist = 80.95
+star1 : Star    358.82   406.26    -1.00  Unknown              STAR_00016
+star2 : Star    400.15   475.86    -1.00  Unknown              STAR_00018
+
+Testing (δ_UMi:STAR_00016,ε_UMi,STAR_00018)
+Intersection = (499.99,499.99)
+dist(δ_UMi,I) = 169.45, dist(STAR_00016,I) = 169.45
+dist(ε_UMi,I) = 102.71, dist(STAR_00018,I) = 102.71
+PAIR FOUND A1 B2 
+
+Map Pair: Dist 68.26
+Stara : Star    497.59   273.15     1.97  Ursa_Minor           Polaris   
+Starb : Star    466.45   333.89     4.35  Ursa_Minor           δ_UMi    
+dist = 68.25
+star1 : Star    358.82   406.26     4.35  Ursa_Minor           δ_UMi    
+star2 : Star    337.89   341.30    -1.00  Unknown              STAR_00028
+
+Testing (Polaris:δ_UMi,δ_UMi,STAR_00028)
+Intersection = (400.63,310.96)
+dist(Polaris,I) = 104.07, dist(δ_UMi,I) = 104.07
+dist(δ_UMi,I) = 69.69, dist(STAR_00028,I) = 69.69
+PAIR FOUND A1 B2 
+
+Map Pair: Dist 87.07
+Stara : Star    446.47   412.32     4.21  Ursa_Minor           ε_UMi    
+Starb : Star    473.30   495.15     4.29  Ursa_Minor           ζ_UMi    
+dist = 87.06
+star1 : Star    400.15   475.86     4.21  Ursa_Minor           ε_UMi    
+star2 : Star    477.69   515.45     4.29  Ursa_Minor           ζ_UMi    
+
+Testing (ε_UMi:ε_UMi,ζ_UMi,ζ_UMi)
+Intersection = (500.00,500.00)
+dist(ε_UMi,I) = 102.73, dist(ε_UMi,I) = 102.73
+dist(ζ_UMi,I) = 27.14, dist(ζ_UMi,I) = 27.14
+PAIR FOUND A1 B2 
+
+Map Pair: Dist 48.68
+Stara : Star    473.30   495.15     4.29  Ursa_Minor           ζ_UMi    
+Starb : Star    433.75   523.53     4.95  Ursa_Minor           η_UMi    
+dist = 48.68
+star1 : Star    477.69   515.45     4.29  Ursa_Minor           ζ_UMi    
+star2 : Star    469.79   563.48     4.95  Ursa_Minor           η_UMi    
+
+Testing (ζ_UMi:ζ_UMi,η_UMi,η_UMi)
+Intersection = (499.99,500.00)
+dist(ζ_UMi,I) = 27.13, dist(ζ_UMi,I) = 27.13
+dist(η_UMi,I) = 70.30, dist(η_UMi,I) = 70.30
+PAIR FOUND A1 B2 
+

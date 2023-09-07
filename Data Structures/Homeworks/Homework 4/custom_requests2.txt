@@ -1,0 +1,3 @@
+apply_diff WORD input_original.txt output_original_sample.diff output_applied2.txt
+invert_diff WORD input_original.txt output_original_sample.diff diff_reversed2.diff
+apply_diff WORD output_applied2.txt diff_reversed2.diff output_r_applied2.txt

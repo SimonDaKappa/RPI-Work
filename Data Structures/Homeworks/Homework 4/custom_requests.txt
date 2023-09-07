@@ -1,0 +1,2 @@
+compute_diff WORD input_sample.txt input_original.txt output_diff.diff
+apply_diff WORD input_original.txt output_diff.diff output_applied.txt

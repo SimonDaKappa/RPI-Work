@@ -1,0 +1,51 @@
+How many turns? => 15
+15
+What is the name of your pikachu? => Achoo
+Achoo
+How often do we see a Pokemon (turns)? => 5
+5
+
+Starting simulation, turn 0 Achoo at (75, 75)
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => n
+n
+Turn 5, Achoo at (50, 75)
+What type of pokemon do you meet (W)ater, (G)round? => W
+W
+Achoo wins and moves to (49, 75)
+What direction does Achoo walk? => N
+N
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => N
+N
+What direction does Achoo walk? => N
+N
+What direction does Achoo walk? => n
+n
+Turn 10, Achoo at (24, 75)
+What type of pokemon do you meet (W)ater, (G)round? => w
+w
+Achoo wins and moves to (23, 75)
+What direction does Achoo walk? => N
+N
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => n
+n
+What direction does Achoo walk? => n
+n
+Turn 15, Achoo at (0, 75)
+What type of pokemon do you meet (W)ater, (G)round? => w
+w
+Achoo wins and moves to (0, 75)
+Achoo ends up at (0, 75), Record: ['Win', 'Win', 'Win']
