@@ -14,7 +14,7 @@ if __name__ == "__main__":
   M = 2
   mu = 0.5
   epsilon_list = np.linspace(0, 1, 100)
-  plt.figure()
+  plt.figure()  
   plt.plot(epsilon_list, hoeffding(epsilon_list, 6), label = "Hoeff | N = 6")
   plt.plot(epsilon_list, hoeffding(epsilon_list, 2), label = "Hoeff | N = 2")
   plt.plot(epsilon_list, coinProb(6, epsilon_list, mu), label ="coinProb | N = 6")
