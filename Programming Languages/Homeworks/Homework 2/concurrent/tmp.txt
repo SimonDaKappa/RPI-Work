@@ -1,0 +1,115 @@
+behavior worker{
+  Integer worker_id;
+  worker[] Workers;
+  Integer[] Nodes;
+  Integer[] NodeDegrees;
+  Integer[] ExternalNodes;
+  String[] Colors;
+  String[] uniqueColors;
+  Integer[] uniqueColorCounts;
+  Integer[] uniqueColorDegrees;
+  Integer[] EdgeSource;
+  Integer[] EdgeTarget;
+
+  void setData(worker[] w, Integer id, Integer[] nd, String[] cl, Integer[] es, Integer[] et){
+    worker_id = id;
+    Nodes = nd;
+    Colors = cl;
+    EdgeSource = es;
+    EdgeTarget = et;
+    Workers = w;
+    findUniqueColors();
+    uniqueColorCounts = new Integer[uniqueColors.length];
+    uniqueColorDegrees = new Integer[uniqueColors.length];
+
+  }
+
+  Integer[] getNodes(){
+    return Nodes;
+  }
+
+  String[] getColors(){
+    return Colors;
+  }
+
+  Integer[] getEdgeSource(){
+    return EdgeSource;
+  }
+
+  Integer[] getEdgeTarget(){
+    return EdgeTarget;
+  }
+
+  Integer[] getUniqueColors(){
+    return uniqueColors;
+  }
+
+  Integer[] getUniqueColorCounts(){
+    return uniqueColorCounts;
+  }
+
+  Integer[] getUniqueColorDegrees(){
+    return uniqueColorDegrees;
+  }
+
+  void findUniqueColors(){
+    String[] tmp = new String[Colors.length];
+    tmp[0] = Colors[0];
+    Integer uniqueCount = 1;
+    for(Integer i = 1; i < Colors.length; i++){
+      Boolean unique = true;
+      for(Integer j = 0; j < uniqueCount; j++){
+        if(Colors[i] == uniqueColors[j]){
+          unique = false;
+        }
+      }
+      if(unique){
+        tmp[uniqueCount] = Colors[i];
+        tmp++;
+      }
+    }
+    uniqueColors = new String[uniqueCount];
+    for(Integer i = 0; i < uniqueCount; i++){
+      uniqueColors[i] = tmp[i];
+    }
+  }
+
+  void uniqueColorCounts(){
+    for(Integer i = 0; i < Nodes.length ; i++){
+      for(Integer j = 0; j < uniqueColors.length; j++){
+        if(Colors[i] == uniqueColors[j]){
+          uniqueColorCounts[j]++;
+        }
+      }
+    }
+  }
+
+  void uniqueColorDegrees{
+    for(Integer i = 0; i < EdgeSource.length; i++){
+      for(Integer j = 0; j < uniqueColors.length; j++){
+        if(Colors[findEdgeNodeIdx(EdgeSource[i])] == uniqueColors[j]){
+          uniqueColorDegrees[j]++;
+        }
+        if(Colors[findEdgeNodeIdx(EdgeTarget[i])] == uniqueColors[j]){
+          uniqueColorDegrees[j]++;
+        }
+      }
+    }
+  }
+
+
+  Integer findEdgeNodeIdx(Integer node){
+    for(Integer i = 0; i < Nodes.length; i++){
+      if(Nodes[i] == node){
+        return i;
+      }
+    }
+    return 0;
+  }
+
+
+  void printHi(){
+    standardOutput <- println("Hi from worker " + worker_id);
+  }
+
+}

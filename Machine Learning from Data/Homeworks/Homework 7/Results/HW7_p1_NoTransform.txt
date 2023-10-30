@@ -1,0 +1,14 @@
+Linear Regression: w = [-1.55176914 -1.00933078  2.58836156]
+Linear Regression: Ein = 0.1834543570219133
+Linear Regression: E_test = 0.2399302320705525
+Linear Regression with Pocket: w = [-1.55176914 -1.00933078  2.58836156]
+Linear Regression with Pocket: Ein = 0.1834543570219133
+Linear Regression with Pocket: E_test = 0.2399302320705525
+Logistic Regression with GD: w = [-3.97985967 -4.81449722  6.81504999]
+Logistic Regression with GD: Ein = 0.1481640891646985
+Logistic Regression with GD: E_test = 0.17377012304561568
+Logistic Regression with SGD: w = [-4.09307703 -5.0565543   6.96450917]
+Logistic Regression with SGD: Ein = 0.14383512297015272
+Logistic Regression with SGD: E_test = 0.17063376074882766
+Optimal Ein: Logistic Regression with SGD -> 0.14383512297015272, Bound = 0.1782091791466496
+Optimal Etest: Logistic Regression with SGD -> 0.17063376074882766, Bound = 0.23658900084306944

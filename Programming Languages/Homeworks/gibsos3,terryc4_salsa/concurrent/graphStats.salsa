@@ -1,0 +1,196 @@
+module concurrent;
+import java.util.*;
+import java.io.*;
+
+behavior graphStats{
+  Integer numPartitions;
+  Integer[][] nodes;
+  String[][] colors;
+  Integer[][] edge_sources;
+  Integer[][] edge_destinations;
+  worker[] w;
+
+
+
+  void act(String[] arg){
+    String input = arg[0];
+    String path_a = arg[1];
+    String path_b = arg[2];
+
+    //standardOutput <- println("Hello World!");
+    int numPartitions = countPartitions(input);
+    //numPartitions = 2;
+    standardOutput <- println("Num partitions: " + numPartitions);
+
+    nodes = new Integer[numPartitions][];
+    colors = new String[numPartitions][];
+    edge_sources = new Integer[numPartitions][];
+    edge_destinations = new Integer[numPartitions][];
+    w = new worker[numPartitions];
+
+    try{
+      BufferedReader in = new BufferedReader(new FileReader(input));
+
+      for (int i = 0; i < numPartitions; i++){
+
+        // Parse Partition ID
+        String line = in.readLine();
+        StringTokenizer st = new StringTokenizer(line, " ");
+        st.nextToken();
+        Integer worker_id = Integer.parseInt(st.nextToken());
+
+        // Parse Nodes
+        line = in.readLine();
+        st = new StringTokenizer(line, ",");
+        nodes[i] = new Integer[st.countTokens()];
+        for (int j = 0; j < nodes[i].length; j++){
+          nodes[i][j] = Integer.parseInt(st.nextToken());
+        }
+
+        // Parse Colors
+        line = in.readLine();
+        st = new StringTokenizer(line, ",");
+        colors[i] = new String[st.countTokens()];
+        for (int j = 0; j < colors[i].length; j++){
+          colors[i][j] = st.nextToken();
+        }
+
+        // Parse Edges
+        line = in.readLine();
+        st = new StringTokenizer(line, " ");
+        edge_sources[i] = new Integer[st.countTokens()];
+        edge_destinations[i] = new Integer[st.countTokens()];
+        for (int j = 0; j < edge_sources[i].length; j++){
+          StringTokenizer st2 = new StringTokenizer(st.nextToken(), ",");
+          edge_sources[i][j] = Integer.parseInt(st2.nextToken());
+          edge_destinations[i][j] = Integer.parseInt(st2.nextToken());
+        }  
+
+        w[i] = new worker();      
+      }
+      in.close();
+      
+
+      join{
+        for(int i = 0; i < numPartitions; i++){
+          w[i] <- act_A(i, nodes[i], colors[i], edge_sources[i], edge_destinations[i]);
+        } 
+      } @ processA(token, path_a);
+
+      join{
+        for(int i = 0; i < numPartitions; i++){
+        w[i] <- receiveWorkers(w) @
+        w[i] <- act_B();
+        }
+      } @ processB(token, path_b);
+
+    }
+    catch(IOException e){
+      standardOutput <- printf("IOException : %s\n", e.getMessage());
+    }
+  }   
+
+
+
+  void processB(Object[] data, String path){
+    String out = "";
+    Integer maxDegree = 0;
+    ArrayList_I maxDegreeNodes = new ArrayList_I();
+
+    // Find Global Max Degree
+    for(int i = 0; i < data.length; i++){
+      Object[][] arr = (Object[][]) data[i];
+      Integer cur_maxDegree = (Integer)arr[1][0];
+
+      if(cur_maxDegree > maxDegree) { maxDegree = cur_maxDegree; }
+    }
+
+    // Collect all prominent nodes
+    for(int i = 0; i < data.length; i++){
+      Object[][] arr = (Object[][]) data[i];
+      Integer cur_maxDegree = (Integer)arr[1][0];
+
+      for(int j = 0; j < arr[0].length; j++){
+        if (!maxDegreeNodes.list.contains((Integer)arr[0][j])){
+          maxDegreeNodes.list.add((Integer)arr[0][j]);
+        }
+      }
+      ArrayList_I cur_maxDegreeNodes = new ArrayList_I((Integer[])arr[0]);
+      cur_maxDegreeNodes.list.sort(Comparator.naturalOrder());
+      out += "Partition " + i + ": " + helper.printArr(cur_maxDegreeNodes.list.toArray()) + "\n";
+    }
+    maxDegreeNodes.list.sort(Comparator.naturalOrder());
+    out += "G: " + helper.printArr(maxDegreeNodes.list.toArray()) + "\n";
+
+    // Open file and write
+    try{
+      FileWriter fw = new FileWriter(path);
+      fw.write(out);
+      fw.close();
+    }
+    catch(IOException ex){
+      standardOutput <- printf("IOException : %s\n", ex.getMessage());
+    }
+  }
+  
+
+  void processA(Object[] data, String path){
+    ArrayList_S totalUniqueColors = new ArrayList_S();
+    ArrayList_I totalUniqueColorsCount = new ArrayList_I();
+    ArrayList_I totalUniqueColorsDegrees = new ArrayList_I();
+    for(int i = 0; i < data.length; i++){
+      Object[][] arr = (Object[][]) data[i];
+      // for(int j = 0; j < arr.length; j++){
+      //   standardOutput <- println(helper.printArr(arr[j]));
+      // }
+
+      // Add/Update unique colors and their counts
+      String[] cur_uniqueColors = (String[])arr[0];
+      Integer[] cur_uniqueColorsCount = (Integer[])arr[1];
+      Integer[] cur_uniqueColorsDegrees = (Integer[])arr[2];
+      for (int j = 0; j < cur_uniqueColors.length; j++){
+        if (!totalUniqueColors.list.contains((String) cur_uniqueColors[j])){
+          totalUniqueColors.list.add((String) cur_uniqueColors[j]);
+          totalUniqueColorsCount.list.add((Integer) cur_uniqueColorsCount[j]);
+          totalUniqueColorsDegrees.list.add((Integer) cur_uniqueColorsDegrees[j]);
+        }
+        else{
+          Integer index = helper.findIndex(totalUniqueColors.list.toArray(), (String) cur_uniqueColors[j]);
+          totalUniqueColorsCount.list.set(index, totalUniqueColorsCount.list.get(index) + (Integer) cur_uniqueColorsCount[j]);
+          totalUniqueColorsDegrees.list.set(index, totalUniqueColorsDegrees.list.get(index) + (Integer) cur_uniqueColorsDegrees[j]);
+        }
+      }
+    }
+    String out = "";
+    for(int i = 0; i < totalUniqueColors.list.size(); i++){
+      out += totalUniqueColors.list.get(i) + " " + totalUniqueColorsCount.list.get(i) + " " + totalUniqueColorsDegrees.list.get(i) + "\n";
+    }
+    try{
+      FileWriter fw = new FileWriter(path);
+      fw.write(out);
+      fw.close();
+    }
+    catch(IOException ex){
+      standardOutput <- printf("IOException : %s\n", ex.getMessage());
+    }
+  }
+
+
+  int countPartitions(String path) {
+    int count = 0;
+    try{
+      BufferedReader in = new BufferedReader(new FileReader(path));
+      while (in.ready()) {
+        for (int i = 0; i < 4; i++) { in.readLine(); }
+        count++;
+      }
+      in.close();
+    }
+    catch(IOException e){
+      standardOutput <- printf("IOException : %s\n", e.getMessage());
+    }
+    return count;
+  }  
+  
+
+}

@@ -1,0 +1,4 @@
+Partition 0: 0 1 
+Partition 1: 4 5 
+Partition 2: 8 9 
+G: 0 1 4 5 8 9 
