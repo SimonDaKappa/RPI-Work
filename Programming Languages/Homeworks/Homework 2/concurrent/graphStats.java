@@ -400,7 +400,7 @@ public class graphStats extends UniversalActor  {
 				Object[][] arr = (Object[][])data[i];
 				Integer cur_maxDegree = (Integer)arr[1][0];
 				for (int j = 0; j<arr[0].length; j++){
-					if (!maxDegreeNodes.list.contains((Integer)arr[0][j])) {{
+					if (!maxDegreeNodes.list.contains((Integer)arr[0][j])&&cur_maxDegree.equals(maxDegree)) {{
 						maxDegreeNodes.list.add((Integer)arr[0][j]);
 					}
 }				}

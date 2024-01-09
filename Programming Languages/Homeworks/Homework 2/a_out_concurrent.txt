@@ -1,3 +1,5 @@
-blue 32 112
-green 32 112
-red 32 112
+white 1 1
+red 6 16
+blue 6 13
+green 5 10
+yellow 5 14

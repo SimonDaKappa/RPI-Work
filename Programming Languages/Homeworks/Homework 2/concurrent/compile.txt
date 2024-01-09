@@ -1,0 +1,8 @@
+worker.java:481: error: cannot find symbol
+				externalNodeDegrees.list.set(i, Integer(x));
+				                                ^
+  symbol:   method Integer(Token)
+  location: class worker.State
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error

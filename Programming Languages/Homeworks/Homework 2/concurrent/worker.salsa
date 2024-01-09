@@ -192,24 +192,21 @@ behavior worker{
       // Init external node degree
       externalNodeDegrees.list.add(0);
       // Message all other actors for degree of external node and sum responses
-      join{
+      token x = join{
         for(int j = 0; j < workers.length; j++){
           if(j != worker_id){
             workers[j] <- getDegreeAtNode(externalNodes.list.get(i), worker_id);
           }
         }
-      } @ processDegreeResponses(token, i);
+      };
     }
     return true;
   }
 
   void processDegreeResponses(Object[] tok, Integer i){
-    Integer sum = sumElements(tok);
-    //System.out.println("Worker " + worker_id + " Setting degree of external node " + externalNodes.list.get(i) + " to " + sum);
-    externalNodeDegrees.list.set(i, sum);
-    //System.out.println("Worker " + worker_id + " external node degree = " + externalNodeDegrees.list.get(i));
-    //System.out.println("Worker " + worker_id + " externalNodeDegrees = " + helper.printArr(externalNodeDegrees.list.toArray()));
+    externalNodeDegrees.list.set(i, sumElements(tok)); 
   }
+
 
   void setTmpVal(Object val){
     //System.out.println("Worker " + worker_id + "Before setTmpVal, tmp_val = " + tmp_val);
