@@ -1,0 +1,312 @@
+argc: 3
+*argv+0: ./hw01.o
+*argv+1: 16
+*argv+2: hw1-input06.txt
+Cache size: 16
+File path: hw1-input06.txt
+Word: Once
+Word "Once" ==> 5 (calloc)
+Word: when
+Word "when" ==> 2 (calloc)
+Word: Lion
+Word "Lion" ==> 2 (realloc)
+Word: was
+Word "was" ==> 11 (calloc)
+Word: asleep
+Word "asleep" ==> 10 (calloc)
+Word: little
+Word "little" ==> 14 (calloc)
+Word: Mouse
+Word "Mouse" ==> 9 (calloc)
+Word: began
+Word "began" ==> 13 (calloc)
+Word: running
+Word "running" ==> 1 (calloc)
+Word: and
+Word "and" ==> 3 (calloc)
+Word: down
+Word "down" ==> 8 (calloc)
+Word: upon
+Word "upon" ==> 2 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: this
+Word "this" ==> 8 (realloc)
+Word: soon
+Word "soon" ==> 15 (calloc)
+Word: wakened
+Word "wakened" ==> 15 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: Lion
+Word "Lion" ==> 2 (realloc)
+Word: who
+Word "who" ==> 14 (realloc)
+Word: placed
+Word "placed" ==> 9 (realloc)
+Word: his
+Word "his" ==> 4 (calloc)
+Word: huge
+Word "huge" ==> 9 (realloc)
+Word: paw
+Word "paw" ==> 8 (realloc)
+Word: upon
+Word "upon" ==> 2 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: and
+Word "and" ==> 3 (realloc)
+Word: opened
+Word "opened" ==> 11 (realloc)
+Word: his
+Word "his" ==> 4 (realloc)
+Word: big
+Word "big" ==> 2 (realloc)
+Word: jaws
+Word "jaws" ==> 5 (realloc)
+Word: swallow
+Word "swallow" ==> 9 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: Pardon
+Word "Pardon" ==> 4 (realloc)
+Word: King
+Word "King" ==> 9 (realloc)
+Word: cried
+Word "cried" ==> 7 (calloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: little
+Word "little" ==> 14 (realloc)
+Word: Mouse
+Word "Mouse" ==> 9 (realloc)
+Word: forgive
+Word "forgive" ==> 2 (realloc)
+Word: this
+Word "this" ==> 8 (realloc)
+Word: time
+Word "time" ==> 15 (realloc)
+Word: shall
+Word "shall" ==> 4 (realloc)
+Word: never
+Word "never" ==> 0 (calloc)
+Word: forget
+Word "forget" ==> 7 (realloc)
+Word: who
+Word "who" ==> 14 (realloc)
+Word: knows
+Word "knows" ==> 2 (realloc)
+Word: but
+Word "but" ==> 11 (realloc)
+Word: what
+Word "what" ==> 4 (realloc)
+Word: may
+Word "may" ==> 7 (realloc)
+Word: able
+Word "able" ==> 4 (realloc)
+Word: you
+Word "you" ==> 13 (realloc)
+Word: turn
+Word "turn" ==> 9 (realloc)
+Word: some
+Word "some" ==> 4 (realloc)
+Word: these
+Word "these" ==> 9 (realloc)
+Word: days
+Word "days" ==> 1 (realloc)
+Word: The
+Word "The" ==> 1 (realloc)
+Word: Lion
+Word "Lion" ==> 2 (realloc)
+Word: was
+Word "was" ==> 11 (realloc)
+Word: tickled
+Word "tickled" ==> 0 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: idea
+Word "idea" ==> 3 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: Mouse
+Word "Mouse" ==> 9 (realloc)
+Word: being
+Word "being" ==> 5 (realloc)
+Word: able
+Word "able" ==> 4 (realloc)
+Word: help
+Word "help" ==> 9 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: that
+Word "that" ==> 1 (realloc)
+Word: lifted
+Word "lifted" ==> 8 (realloc)
+Word: his
+Word "his" ==> 4 (realloc)
+Word: paw
+Word "paw" ==> 8 (realloc)
+Word: and
+Word "and" ==> 3 (realloc)
+Word: let
+Word "let" ==> 5 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: Some
+Word "Some" ==> 4 (realloc)
+Word: time
+Word "time" ==> 15 (realloc)
+Word: after
+Word "after" ==> 2 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: Lion
+Word "Lion" ==> 2 (realloc)
+Word: was
+Word "was" ==> 11 (realloc)
+Word: caught
+Word "caught" ==> 12 (calloc)
+Word: trap
+Word "trap" ==> 7 (realloc)
+Word: and
+Word "and" ==> 3 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: hunters
+Word "hunters" ==> 9 (realloc)
+Word: who
+Word "who" ==> 14 (realloc)
+Word: desired
+Word "desired" ==> 0 (realloc)
+Word: carry
+Word "carry" ==> 1 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: alive
+Word "alive" ==> 1 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: King
+Word "King" ==> 9 (realloc)
+Word: tied
+Word "tied" ==> 6 (calloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: tree
+Word "tree" ==> 0 (realloc)
+Word: while
+Word "while" ==> 9 (realloc)
+Word: they
+Word "they" ==> 10 (realloc)
+Word: went
+Word "went" ==> 14 (realloc)
+Word: search
+Word "search" ==> 6 (realloc)
+Word: wagon
+Word "wagon" ==> 12 (realloc)
+Word: carry
+Word "carry" ==> 1 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: Just
+Word "Just" ==> 6 (realloc)
+Word: then
+Word "then" ==> 15 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: little
+Word "little" ==> 14 (realloc)
+Word: Mouse
+Word "Mouse" ==> 9 (realloc)
+Word: happened
+Word "happened" ==> 5 (realloc)
+Word: pass
+Word "pass" ==> 7 (realloc)
+Word: and
+Word "and" ==> 3 (realloc)
+Word: seeing
+Word "seeing" ==> 11 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: sad
+Word "sad" ==> 8 (realloc)
+Word: plight
+Word "plight" ==> 8 (realloc)
+Word: which
+Word "which" ==> 3 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: Lion
+Word "Lion" ==> 2 (realloc)
+Word: was
+Word "was" ==> 11 (realloc)
+Word: went
+Word "went" ==> 14 (realloc)
+Word: him
+Word "him" ==> 14 (realloc)
+Word: and
+Word "and" ==> 3 (realloc)
+Word: soon
+Word "soon" ==> 15 (realloc)
+Word: gnawed
+Word "gnawed" ==> 6 (realloc)
+Word: away
+Word "away" ==> 2 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: ropes
+Word "ropes" ==> 9 (realloc)
+Word: that
+Word "that" ==> 1 (realloc)
+Word: bound
+Word "bound" ==> 8 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: King
+Word "King" ==> 9 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: Beasts
+Word "Beasts" ==> 2 (realloc)
+Word: Was
+Word "Was" ==> 11 (realloc)
+Word: not
+Word "not" ==> 1 (realloc)
+Word: right
+Word "right" ==> 14 (realloc)
+Word: said
+Word "said" ==> 1 (realloc)
+Word: the
+Word "the" ==> 1 (realloc)
+Word: little
+Word "little" ==> 14 (realloc)
+Word: Mouse
+Word "Mouse" ==> 9 (realloc)
+Word: LITTLE
+Word "LITTLE" ==> 14 (realloc)
+Word: FRIENDS
+Word "FRIENDS" ==> 11 (realloc)
+Word: MAY
+Word "MAY" ==> 7 (realloc)
+Word: PROVE
+Word "PROVE" ==> 12 (realloc)
+Word: GREAT
+Word "GREAT" ==> 3 (realloc)
+Word: FRIENDS
+Word "FRIENDS" ==> 11 (realloc)
+Cache index 0 ==> "tree"
+Cache index 1 ==> "the"
+Cache index 2 ==> "Beasts"
+Cache index 3 ==> "GREAT"
+Cache index 4 ==> "Some"
+Cache index 5 ==> "happened"
+Cache index 6 ==> "gnawed"
+Cache index 7 ==> "MAY"
+Cache index 8 ==> "bound"
+Cache index 9 ==> "Mouse"
+Cache index 10 ==> "they"
+Cache index 11 ==> "FRIENDS"
+Cache index 12 ==> "PROVE"
+Cache index 13 ==> "you"
+Cache index 14 ==> "LITTLE"
+Cache index 15 ==> "soon"
