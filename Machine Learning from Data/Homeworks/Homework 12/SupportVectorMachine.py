@@ -26,7 +26,7 @@ class SupportVectorMachine:
     for i in range(m):
       for j in range(m):
         Gram[i][j] = y[i]*y[j]*self.kernel(X[i], X[j])
-    Gram = matrix(Gram)
+    Gram = matrix(Gram) 
     # Solve Dual QP problem for alphas
     # G matrix is N x 2N matrix where every 2 elements
     # are pairwise zero_constraint, C_constraint

@@ -136,7 +136,7 @@ def linearRegression(X, y, doPocket = False):
   w_lin = np.matmul(X_pinv, y)
   if doPocket:
     w_lin = pocketAlgorithm(X, y, w_lin, len(X))
-  return w_lin 
+  return w_lin  
  
 def logisticFunc(s):
   return (np.exp(s))/(1+np.exp(s)) 
