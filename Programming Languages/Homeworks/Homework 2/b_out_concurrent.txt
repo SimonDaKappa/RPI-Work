@@ -1,0 +1,5 @@
+Partition 0: 1 2 3 
+Partition 1: 8 
+Partition 2: 12 13 14 15 
+Partition 3: 17 
+G: 8 17 

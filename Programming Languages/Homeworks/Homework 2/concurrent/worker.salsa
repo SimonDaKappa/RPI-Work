@@ -1,0 +1,226 @@
+module concurrent;
+
+import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.io.*;
+
+behavior worker{
+  Integer tmp_val;
+  Integer worker_id;
+  ArrayList_I nodes;
+  ArrayList_I degrees;
+  ArrayList_S colors;
+  ArrayList_I edge_sources;
+  ArrayList_I edge_destinations;
+  ArrayList_S uniqueColors;
+  ArrayList_I uniqueColorCounts;
+  ArrayList_I uniqueColorDegrees;
+  ArrayList_I externalNodes;
+  ArrayList_I externalNodeDegrees;
+  worker[] workers;
+
+  void act_A(int id, Integer[] n, String[] c, Integer[] es, Integer[] ed){
+    // Init member variables
+    tmp_val = 0;
+    worker_id = id;
+    nodes = new ArrayList_I(n);
+    colors = new ArrayList_S(c);
+    edge_sources = new ArrayList_I(es);
+    edge_destinations = new ArrayList_I(ed);
+    //System.out.println("Worker " + worker_id + " initialized");
+    //System.out.println("Worker " + worker_id + " nodes = " + helper.printArr(nodes.list.toArray()));
+    //System.out.println("Worker " + worker_id + " colors = " + helper.printArr(colors.list.toArray()));
+    //System.out.println("Worker " + worker_id + " edge_sources = " + helper.printArr(edge_sources.list.toArray()));
+    //System.out.println("Worker " + worker_id + " edge_destinations = " + helper.printArr(edge_destinations.list.toArray()));
+    
+    // Calculate Degree of each node
+    degrees = new ArrayList_I();
+    for(int i = 0; i < nodes.list.size(); i++){
+      degrees.list.add(0);
+    }
+    for(int i = 0; i < edge_sources.list.size(); i++){
+      for(int j = 0; j < nodes.list.size(); j++){
+        if(edge_sources.list.get(i).equals(nodes.list.get(j))){
+          degrees.list.set(j, degrees.list.get(j) + 1);
+        }
+        if(edge_destinations.list.get(i).equals(nodes.list.get(j))){
+          degrees.list.set(j, degrees.list.get(j) + 1);
+        }
+      }
+    }
+    //System.out.println("Worker " + worker_id + " degrees = " + helper.printArr(degrees.list.toArray()));
+
+    // Get unique colors
+    uniqueColors = helper.getUniqueItems(colors);
+
+    // Get unique color counts
+    uniqueColorCounts = new ArrayList_I();
+    for(int i = 0; i < uniqueColors.list.size(); i++){
+      uniqueColorCounts.list.add(0);
+    }
+    //System.out.println("Worker " + worker_id + " uniqueColors = " + helper.printArr(uniqueColors.list.toArray()));
+    for(int i = 0; i < uniqueColors.list.size(); i++){
+      for(int j = 0; j < colors.list.size(); j++){
+        if(uniqueColors.list.get(i).equals(colors.list.get(j))){
+          //System.out.printf("i,j = %d,%d. uniqueColors[i] == %s, colors[j] == %s\n",i,j,uniqueColors.list.get(i),colors.list.get(j));
+          uniqueColorCounts.list.set(i, uniqueColorCounts.list.get(i) + 1);
+        }
+      }
+    }
+    //System.out.println("Worker " + worker_id + " uniqueColorCounts = " + helper.printArr(uniqueColorCounts.list.toArray()));
+
+    // Get unique color degrees
+    uniqueColorDegrees = new ArrayList_I();
+    for(int i = 0; i < uniqueColors.list.size(); i++){
+      uniqueColorDegrees.list.add(0);
+    }
+    for(int i = 0; i < uniqueColors.list.size(); i++){
+      for(int j = 0; j < colors.list.size(); j++){
+      if(uniqueColors.list.get(i).equals(colors.list.get(j))){
+          uniqueColorDegrees.list.set(i, uniqueColorDegrees.list.get(i) + degrees.list.get(j));
+        }
+      }
+    }
+    // System.out.println("Worker " + worker_id + " uniqueColorDegrees = " + helper.printArr(uniqueColorDegrees.list.toArray()));
+    retA() @ currentContinuation;
+  }
+
+  Object[][] retA(){
+    // Construct return Arrays
+    String[] returnColors = new String[uniqueColors.list.size()];
+    Integer[] returnColorCounts = new Integer[uniqueColorCounts.list.size()];
+    Integer[] returnColorDegrees = new Integer[uniqueColorDegrees.list.size()];
+    for(int i = 0; i < uniqueColors.list.size(); i++){
+      returnColors[i] = uniqueColors.list.get(i);
+      returnColorCounts[i] = uniqueColorCounts.list.get(i);
+      returnColorDegrees[i] = uniqueColorDegrees.list.get(i);
+    }
+    Object[][] ret = new Object[3][];
+    ret[0] = returnColors;
+    ret[1] = returnColorCounts;
+    ret[2] = returnColorDegrees;
+    return ret;
+  }
+
+  void act_B(){
+    findExternalNodes() @
+    token x = findExternalNodeDegrees();
+    ret_B(x) : waitfor(x) @ currentContinuation;
+  }
+
+  Integer[][] ret_B(Object in){
+    // standardOutput <- println("Worker " + worker_id + " externalNodes = " + helper.printArr(externalNodes.list.toArray())) @
+    // standardOutput <- println("Worker " + worker_id + " externalNodeDegrees = " + helper.printArr(externalNodeDegrees.list.toArray())) @
+    findMaxDegreeNodes() @ currentContinuation;
+  }
+
+  Integer[][] findMaxDegreeNodes(){
+    ArrayList_I maxDegreeNodes = new ArrayList_I();
+    Integer maxDegree = 0;
+
+    // Find max degree
+    for(int i = 0; i < nodes.list.size(); i++){
+      if(degrees.list.get(i) > maxDegree){
+        maxDegree = degrees.list.get(i);
+      }
+    }
+    for(int i = 0; i < externalNodes.list.size(); i++){
+      if(externalNodeDegrees.list.get(i) > maxDegree){
+        maxDegree = externalNodeDegrees.list.get(i);
+      }
+    }
+
+    for(int i = 0; i < nodes.list.size(); i++){
+      if(degrees.list.get(i).equals(maxDegree)){
+        maxDegreeNodes.list.add(nodes.list.get(i));
+      }
+    }
+    for(int i = 0; i < externalNodes.list.size(); i++){
+      //String out = "Worker " + worker_id + " maxDeg = " + maxDegree + " externalNodes[i] = " + externalNodes.list.get(i) + " externalNodeDegrees[i] = " + externalNodeDegrees.list.get(i);
+      //standardOutput <- println(out);
+      if(externalNodeDegrees.list.get(i).equals(maxDegree)){
+        maxDegreeNodes.list.add(externalNodes.list.get(i));
+      }
+    }
+
+    Integer[][] ret = new Integer[2][];
+    ret[0] = maxDegreeNodes.list.toArray(new Integer[maxDegreeNodes.list.size()]);
+    ret[1] = new Integer[1];
+    ret[1][0] = maxDegree;
+    return ret;
+  }
+
+
+  void printExtNodesInfo(){
+    standardOutput <- println("Worker " + worker_id + " externalNodes = " + helper.printArr(externalNodes.list.toArray())) @
+    standardOutput <- println("Worker " + worker_id + " externalNodeDegrees = " + helper.printArr(externalNodeDegrees.list.toArray()));
+  }
+
+  void receiveWorkers(worker[] w){
+    workers = w;
+    //System.out.println("Worker " + worker_id + " received workers");
+    //System.out.println("Worker " + worker_id + " workers = " + helper.printArr(workers));
+  }
+
+  Integer getDegreeAtNode(Integer node, Integer requestor_id){
+    for(int i = 0; i < nodes.list.size(); i++){
+      if(nodes.list.get(i).equals(node)){
+        //System.out.println("Worker " + worker_id + " sending degree " + degrees.list.get(i) +  " for node " + node + " to worker " + requestor_id);
+        return degrees.list.get(i);
+      }
+    }
+    return 0;
+  }
+
+  void findExternalNodes(){
+    externalNodes = new ArrayList_I();
+    for(int i = 0; i < edge_sources.list.size(); i++){
+      if(!nodes.list.contains(edge_sources.list.get(i))){
+        externalNodes.list.add(edge_sources.list.get(i));
+      }
+      if(!nodes.list.contains(edge_destinations.list.get(i))){
+        externalNodes.list.add(edge_destinations.list.get(i));
+      }
+    }
+    //System.out.println("Worker " + worker_id + " externalNodes = " + helper.printArr(externalNodes.list.toArray()));
+  }
+
+  Boolean findExternalNodeDegrees(){
+    externalNodeDegrees = new ArrayList_I();
+    for(int i = 0; i < externalNodes.list.size(); i++){
+      // Init external node degree
+      externalNodeDegrees.list.add(0);
+      // Message all other actors for degree of external node and sum responses
+      token x = join{
+        for(int j = 0; j < workers.length; j++){
+          if(j != worker_id){
+            workers[j] <- getDegreeAtNode(externalNodes.list.get(i), worker_id);
+          }
+        }
+      };
+    }
+    return true;
+  }
+
+  void processDegreeResponses(Object[] tok, Integer i){
+    externalNodeDegrees.list.set(i, sumElements(tok)); 
+  }
+
+
+  void setTmpVal(Object val){
+    //System.out.println("Worker " + worker_id + "Before setTmpVal, tmp_val = " + tmp_val);
+    tmp_val = (Integer)val;
+    //System.out.println("Worker " + worker_id + "After setTmpVal, tmp_val = " + tmp_val);
+  }
+
+  Integer sumElements(Object[] arr){
+    //System.out.println("Worker " + worker_id + " sumElements called with arr = " + helper.printArr(arr));
+    Integer sum = 0;
+    for(int i = 0; i < arr.length; i++){
+      sum += ((Integer)arr[i]).intValue();
+    }
+    //System.out.println("Worker " + worker_id + " sumElements returning sum = " + sum);
+    return sum;
+  } 
+}

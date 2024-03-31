@@ -1,0 +1,151 @@
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = cat -n hw2-input11.txt
+
+DEBUG: Parsing command: cat -n hw2-input11.txt
+DEBUG: Parsing single command: cat -n hw2-input11.txt
+DEBUG: token: cat
+DEBUG: token: -n
+DEBUG: token: hw2-input11.txt
+DEBUG: Parsed command: [cat, -n, hw2-input11.txt, ]
+
+DEBUG: Parsed command 0:[cat, -n, hw2-input11.txt, ]
+DEBUG: executeSingleCommand() Executing: cat
+len: 3
+DEBUG: args[len - 1]: hw2-input11.txt
+     1	cat -n hw2-input11.txt
+     2	cd /home/goldsd
+     3	ls -1 | wc -l
+     4	ls -1 | wc -l
+     5	ls -1 | wc -l
+     6	ls -l /usr/bin/gcc
+     7	ps -f | wc -l
+     8	exit
+DEBUG: status: 1
+
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = cd /home/goldsd
+
+DEBUG: Parsing command: cd /home/goldsd
+DEBUG: Parsing single command: cd /home/goldsd
+DEBUG: token: cd
+DEBUG: token: /home/goldsd
+DEBUG: Parsed command: [cd, /home/goldsd, ]
+
+DEBUG: Parsed command 0:[cd, /home/goldsd, ]
+DEBUG: status: 1
+
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = ls -1 | wc -l
+
+DEBUG: Parsing command: ls -1 | wc -l
+DEBUG: Parsing single command: ls -1 
+DEBUG: token: ls
+DEBUG: token: -1
+DEBUG: Parsed command: [ls, -1, ]
+DEBUG: Parsing single command:  wc -l
+DEBUG: token: wc
+DEBUG: token: -l
+DEBUG: Parsed command: [wc, -l, ]
+
+DEBUG: Parsed command 0:[ls, -1, ]
+DEBUG: Parsed command 1:[wc, -l, ]
+DEBUG: Child1 Executing /usr/bin/ls
+DEBUG: Child1 Executing /usr/bin/wc
+17
+DEBUG: Parent Finished
+
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = ls -1 | wc -l
+
+DEBUG: Parsing command: ls -1 | wc -l
+DEBUG: Parsing single command: ls -1 
+DEBUG: token: ls
+DEBUG: token: -1
+DEBUG: Parsed command: [ls, -1, ]
+DEBUG: Parsing single command:  wc -l
+DEBUG: token: wc
+DEBUG: token: -l
+DEBUG: Parsed command: [wc, -l, ]
+
+DEBUG: Parsed command 0:[ls, -1, ]
+DEBUG: Parsed command 1:[wc, -l, ]
+DEBUG: Child1 Executing /usr/bin/ls
+DEBUG: Child1 Executing /usr/bin/wc
+17
+DEBUG: Parent Finished
+
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = ls -1 | wc -l
+
+DEBUG: Parsing command: ls -1 | wc -l
+DEBUG: Parsing single command: ls -1 
+DEBUG: token: ls
+DEBUG: token: -1
+DEBUG: Parsed command: [ls, -1, ]
+DEBUG: Parsing single command:  wc -l
+DEBUG: token: wc
+DEBUG: token: -l
+DEBUG: Parsed command: [wc, -l, ]
+
+DEBUG: Parsed command 0:[ls, -1, ]
+DEBUG: Parsed command 1:[wc, -l, ]
+DEBUG: Child1 Executing /usr/bin/ls
+DEBUG: Child1 Executing /usr/bin/wc
+17
+DEBUG: Parent Finished
+
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = ls -l /usr/bin/gcc
+
+DEBUG: Parsing command: ls -l /usr/bin/gcc
+DEBUG: Parsing single command: ls -l /usr/bin/gcc
+DEBUG: token: ls
+DEBUG: token: -l
+DEBUG: token: /usr/bin/gcc
+DEBUG: Parsed command: [ls, -l, /usr/bin/gcc, ]
+
+DEBUG: Parsed command 0:[ls, -l, /usr/bin/gcc, ]
+DEBUG: executeSingleCommand() Executing: ls
+len: 3
+DEBUG: args[len - 1]: /usr/bin/gcc
+lrwxrwxrwx 1 root root 6 Aug  5  2021 /usr/bin/gcc -> gcc-11
+DEBUG: status: 1
+
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = ps -f | wc -l
+
+DEBUG: Parsing command: ps -f | wc -l
+DEBUG: Parsing single command: ps -f 
+DEBUG: token: ps
+DEBUG: token: -f
+DEBUG: Parsed command: [ps, -f, ]
+DEBUG: Parsing single command:  wc -l
+DEBUG: token: wc
+DEBUG: token: -l
+DEBUG: Parsed command: [wc, -l, ]
+
+DEBUG: Parsed command 0:[ps, -f, ]
+DEBUG: Parsed command 1:[wc, -l, ]
+DEBUG: Child1 Executing /usr/bin/ps
+DEBUG: Child1 Executing /usr/bin/wc
+9
+DEBUG: Parent Finished
+
+DEBUG: Current working directory: 
+/mnt/c/Users/Simon/Desktop/RPI-Work/Operating Systems/Homeworks/HW02$ 
+DEBUG: Command = exit
+
+DEBUG: Parsing command: exit
+DEBUG: Parsing single command: exit
+DEBUG: token: exit
+DEBUG: Parsed command: [exit, ]
+
+DEBUG: Parsed command 0:[exit, ]
+bye

@@ -1,0 +1,5 @@
+white 1 1
+red 6 16
+blue 6 13
+green 5 10
+yellow 5 14

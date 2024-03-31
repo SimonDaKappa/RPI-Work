@@ -1,0 +1,6 @@
+Problems:
+graphStats line 116, cur_maxDegree == maxDegree instead of 
+.equals() 
+
+FindExternalNodeDegrees race condition with message passing priorities not working
+delay, delayWaitFor both do not work.

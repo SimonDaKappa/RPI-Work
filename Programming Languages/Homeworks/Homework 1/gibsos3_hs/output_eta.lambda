@@ -1,0 +1,8 @@
+(\x.\y.(y x) (y w))
+(\x.x (y w))
+(\x.x y)
+y
+((\y.y \x.(x x)) y)
+(((\b.b \x.\y.x) x) y)
+(y z)
+(\x.x (y w))

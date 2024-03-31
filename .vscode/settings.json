@@ -1,0 +1,7 @@
+{
+  "python.analysis.autoImportCompletions": false,
+  "files.associations": {
+    "*.pl": "prolog",
+    "*.tc": "c"
+  }
+}
